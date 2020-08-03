@@ -1,0 +1,1794 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\node-v12.18.2-win-x64\\node.exe',
+1 verbose cli   'C:\\Program Files\\node-v12.18.2-win-x64\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'nodemon'
+1 verbose cli ]
+2 info using npm@6.14.5
+3 info using node@v12.18.2
+4 verbose npm-session 7f6dcc94750c6172
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 http fetch GET 200 https://registry.npmjs.org/nodemon 1760ms
+8 http fetch GET 200 https://registry.npmjs.org/nodemon/-/nodemon-2.0.4.tgz 500ms
+9 silly pacote tag manifest for nodemon@latest fetched in 2312ms
+10 timing stage:loadCurrentTree Completed in 2332ms
+11 silly install loadIdealTree
+12 silly install cloneCurrentTreeToIdealTree
+13 timing stage:loadIdealTree:cloneCurrentTree Completed in 0ms
+14 silly install loadShrinkwrap
+15 timing stage:loadIdealTree:loadShrinkwrap Completed in 2ms
+16 silly install loadAllDepsIntoIdealTree
+17 silly resolveWithNewModule nodemon@2.0.4 checking installable status
+18 http fetch GET 200 https://registry.npmjs.org/debug 33ms (from cache)
+19 http fetch GET 200 https://registry.npmjs.org/semver 28ms (from cache)
+20 silly pacote range manifest for semver@^5.7.1 fetched in 33ms
+21 silly resolveWithNewModule semver@5.7.1 checking installable status
+22 silly pacote range manifest for debug@^3.2.6 fetched in 62ms
+23 silly resolveWithNewModule debug@3.2.6 checking installable status
+24 http fetch GET 200 https://registry.npmjs.org/supports-color 56ms (from cache)
+25 silly pacote range manifest for supports-color@^5.5.0 fetched in 78ms
+26 silly resolveWithNewModule supports-color@5.5.0 checking installable status
+27 http fetch GET 200 https://registry.npmjs.org/ignore-by-default 320ms
+28 http fetch GET 200 https://registry.npmjs.org/pstree.remy 450ms
+29 http fetch GET 200 https://registry.npmjs.org/undefsafe 451ms
+30 http fetch GET 200 https://registry.npmjs.org/update-notifier 469ms
+31 http fetch GET 200 https://registry.npmjs.org/touch 488ms
+32 http fetch GET 304 https://registry.npmjs.org/chokidar 513ms (from cache)
+33 silly pacote range manifest for chokidar@^3.2.2 fetched in 523ms
+34 silly resolveWithNewModule chokidar@3.4.1 checking installable status
+35 http fetch GET 304 https://registry.npmjs.org/minimatch 518ms (from cache)
+36 silly pacote range manifest for minimatch@^3.0.4 fetched in 532ms
+37 silly resolveWithNewModule minimatch@3.0.4 checking installable status
+38 http fetch GET 200 https://registry.npmjs.org/ignore-by-default/-/ignore-by-default-1.0.1.tgz 287ms
+39 silly pacote range manifest for ignore-by-default@^1.0.1 fetched in 621ms
+40 silly resolveWithNewModule ignore-by-default@1.0.1 checking installable status
+41 http fetch GET 200 https://registry.npmjs.org/pstree.remy/-/pstree.remy-1.1.8.tgz 285ms
+42 silly pacote range manifest for pstree.remy@^1.1.7 fetched in 751ms
+43 silly resolveWithNewModule pstree.remy@1.1.8 checking installable status
+44 http fetch GET 200 https://registry.npmjs.org/undefsafe/-/undefsafe-2.0.3.tgz 306ms
+45 http fetch GET 200 https://registry.npmjs.org/update-notifier/-/update-notifier-4.1.0.tgz 296ms
+46 silly pacote range manifest for undefsafe@^2.0.2 fetched in 770ms
+47 silly resolveWithNewModule undefsafe@2.0.3 checking installable status
+48 silly pacote range manifest for update-notifier@^4.0.0 fetched in 780ms
+49 silly resolveWithNewModule update-notifier@4.1.0 checking installable status
+50 http fetch GET 200 https://registry.npmjs.org/touch/-/touch-3.1.0.tgz 307ms
+51 silly pacote range manifest for touch@^3.1.0 fetched in 806ms
+52 silly resolveWithNewModule touch@3.1.0 checking installable status
+53 http fetch GET 304 https://registry.npmjs.org/normalize-path 383ms (from cache)
+54 http fetch GET 304 https://registry.npmjs.org/anymatch 392ms (from cache)
+55 http fetch GET 304 https://registry.npmjs.org/glob-parent 392ms (from cache)
+56 silly pacote range manifest for anymatch@~3.1.1 fetched in 409ms
+57 silly resolveWithNewModule anymatch@3.1.1 checking installable status
+58 silly pacote range manifest for normalize-path@~3.0.0 fetched in 407ms
+59 silly resolveWithNewModule normalize-path@3.0.0 checking installable status
+60 silly pacote range manifest for glob-parent@~5.1.0 fetched in 409ms
+61 silly resolveWithNewModule glob-parent@5.1.1 checking installable status
+62 http fetch GET 304 https://registry.npmjs.org/is-glob 454ms (from cache)
+63 silly pacote range manifest for is-glob@~4.0.1 fetched in 460ms
+64 silly resolveWithNewModule is-glob@4.0.1 checking installable status
+65 http fetch GET 304 https://registry.npmjs.org/braces 882ms (from cache)
+66 silly pacote range manifest for braces@~3.0.2 fetched in 889ms
+67 silly resolveWithNewModule braces@3.0.2 checking installable status
+68 http fetch GET 304 https://registry.npmjs.org/readdirp 901ms (from cache)
+69 silly pacote range manifest for readdirp@~3.4.0 fetched in 908ms
+70 silly resolveWithNewModule readdirp@3.4.0 checking installable status
+71 http fetch GET 304 https://registry.npmjs.org/is-binary-path 923ms (from cache)
+72 silly pacote range manifest for is-binary-path@~2.1.0 fetched in 929ms
+73 silly resolveWithNewModule is-binary-path@2.1.0 checking installable status
+74 http fetch GET 304 https://registry.npmjs.org/fsevents 1066ms (from cache)
+75 http fetch GET 200 https://registry.npmjs.org/fsevents/-/fsevents-2.1.3.tgz 317ms
+76 silly pacote range manifest for fsevents@~2.1.2 fetched in 1393ms
+77 silly resolveWithNewModule fsevents@2.1.3 checking installable status
+78 http fetch GET 304 https://registry.npmjs.org/picomatch 312ms (from cache)
+79 silly pacote range manifest for picomatch@^2.0.4 fetched in 326ms
+80 silly resolveWithNewModule picomatch@2.2.2 checking installable status
+81 http fetch GET 304 https://registry.npmjs.org/fill-range 342ms (from cache)
+82 silly pacote range manifest for fill-range@^7.0.1 fetched in 350ms
+83 silly resolveWithNewModule fill-range@7.0.1 checking installable status
+84 http fetch GET 304 https://registry.npmjs.org/to-regex-range 314ms (from cache)
+85 silly pacote range manifest for to-regex-range@^5.0.1 fetched in 321ms
+86 silly resolveWithNewModule to-regex-range@5.0.1 checking installable status
+87 http fetch GET 304 https://registry.npmjs.org/is-number 330ms (from cache)
+88 silly pacote range manifest for is-number@^7.0.0 fetched in 339ms
+89 silly resolveWithNewModule is-number@7.0.0 checking installable status
+90 http fetch GET 304 https://registry.npmjs.org/is-extglob 307ms (from cache)
+91 silly pacote range manifest for is-extglob@^2.1.1 fetched in 314ms
+92 silly resolveWithNewModule is-extglob@2.1.1 checking installable status
+93 http fetch GET 304 https://registry.npmjs.org/binary-extensions 319ms (from cache)
+94 silly pacote range manifest for binary-extensions@^2.0.0 fetched in 328ms
+95 silly resolveWithNewModule binary-extensions@2.1.0 checking installable status
+96 http fetch GET 200 https://registry.npmjs.org/ms 2ms (from cache)
+97 silly pacote range manifest for ms@^2.1.1 fetched in 16ms
+98 silly resolveWithNewModule ms@2.1.2 checking installable status
+99 http fetch GET 304 https://registry.npmjs.org/brace-expansion 330ms (from cache)
+100 silly pacote range manifest for brace-expansion@^1.1.7 fetched in 351ms
+101 silly resolveWithNewModule brace-expansion@1.1.11 checking installable status
+102 http fetch GET 304 https://registry.npmjs.org/balanced-match 322ms (from cache)
+103 http fetch GET 304 https://registry.npmjs.org/concat-map 322ms (from cache)
+104 silly pacote range manifest for balanced-match@^1.0.0 fetched in 427ms
+105 silly resolveWithNewModule balanced-match@1.0.0 checking installable status
+106 silly pacote version manifest for concat-map@0.0.1 fetched in 438ms
+107 silly resolveWithNewModule concat-map@0.0.1 checking installable status
+108 http fetch GET 200 https://registry.npmjs.org/has-flag 48ms (from cache)
+109 silly pacote range manifest for has-flag@^3.0.0 fetched in 58ms
+110 silly resolveWithNewModule has-flag@3.0.0 checking installable status
+111 http fetch GET 200 https://registry.npmjs.org/nopt 300ms
+112 http fetch GET 200 https://registry.npmjs.org/nopt/-/nopt-1.0.10.tgz 298ms
+113 silly pacote range manifest for nopt@~1.0.10 fetched in 612ms
+114 silly resolveWithNewModule nopt@1.0.10 checking installable status
+115 http fetch GET 200 https://registry.npmjs.org/abbrev 299ms
+116 http fetch GET 200 https://registry.npmjs.org/abbrev/-/abbrev-1.1.1.tgz 309ms
+117 silly pacote range manifest for abbrev@1 fetched in 619ms
+118 silly resolveWithNewModule abbrev@1.1.1 checking installable status
+119 silly pacote range manifest for debug@^2.2.0 fetched in 108ms
+120 silly resolveWithNewModule debug@2.6.9 checking installable status
+121 silly pacote version manifest for ms@2.0.0 fetched in 1ms
+122 silly resolveWithNewModule ms@2.0.0 checking installable status
+123 http fetch GET 200 https://registry.npmjs.org/chalk 40ms (from cache)
+124 silly pacote range manifest for chalk@^3.0.0 fetched in 67ms
+125 silly resolveWithNewModule chalk@3.0.0 checking installable status
+126 http fetch GET 200 https://registry.npmjs.org/boxen 485ms
+127 http fetch GET 200 https://registry.npmjs.org/is-npm 821ms
+128 http fetch GET 200 https://registry.npmjs.org/import-lazy 823ms
+129 http fetch GET 200 https://registry.npmjs.org/configstore 849ms
+130 http fetch GET 200 https://registry.npmjs.org/latest-version 851ms
+131 http fetch GET 200 https://registry.npmjs.org/is-yarn-global 860ms
+132 http fetch GET 200 https://registry.npmjs.org/is-installed-globally 939ms
+133 http fetch GET 200 https://registry.npmjs.org/has-yarn 953ms
+134 http fetch GET 304 https://registry.npmjs.org/is-ci 1011ms (from cache)
+135 silly pacote range manifest for is-ci@^2.0.0 fetched in 1038ms
+136 silly resolveWithNewModule is-ci@2.0.0 checking installable status
+137 http fetch GET 200 https://registry.npmjs.org/is-npm/-/is-npm-4.0.0.tgz 291ms
+138 http fetch GET 200 https://registry.npmjs.org/import-lazy/-/import-lazy-2.1.0.tgz 302ms
+139 silly pacote range manifest for is-npm@^4.0.0 fetched in 1134ms
+140 silly resolveWithNewModule is-npm@4.0.0 checking installable status
+141 silly pacote range manifest for import-lazy@^2.1.0 fetched in 1151ms
+142 silly resolveWithNewModule import-lazy@2.1.0 checking installable status
+143 http fetch GET 200 https://registry.npmjs.org/latest-version/-/latest-version-5.1.0.tgz 300ms
+144 http fetch GET 200 https://registry.npmjs.org/is-yarn-global/-/is-yarn-global-0.3.0.tgz 309ms
+145 silly pacote range manifest for latest-version@^5.0.0 fetched in 1170ms
+146 silly resolveWithNewModule latest-version@5.1.0 checking installable status
+147 silly pacote range manifest for is-yarn-global@^0.3.0 fetched in 1185ms
+148 silly resolveWithNewModule is-yarn-global@0.3.0 checking installable status
+149 http fetch GET 200 https://registry.npmjs.org/is-installed-globally/-/is-installed-globally-0.3.2.tgz 305ms
+150 silly pacote range manifest for is-installed-globally@^0.3.1 fetched in 1260ms
+151 silly resolveWithNewModule is-installed-globally@0.3.2 checking installable status
+152 http fetch GET 200 https://registry.npmjs.org/boxen/-/boxen-4.2.0.tgz 854ms
+153 silly pacote range manifest for boxen@^4.2.0 fetched in 1352ms
+154 silly resolveWithNewModule boxen@4.2.0 checking installable status
+155 http fetch GET 200 https://registry.npmjs.org/configstore/-/configstore-5.0.1.tgz 842ms
+156 silly pacote range manifest for configstore@^5.0.1 fetched in 1708ms
+157 silly resolveWithNewModule configstore@5.0.1 checking installable status
+158 http fetch GET 200 https://registry.npmjs.org/has-yarn/-/has-yarn-2.1.0.tgz 827ms
+159 silly pacote range manifest for has-yarn@^2.1.0 fetched in 1798ms
+160 silly resolveWithNewModule has-yarn@2.1.0 checking installable status
+161 http fetch GET 200 https://registry.npmjs.org/semver-diff 849ms
+162 http fetch GET 200 https://registry.npmjs.org/xdg-basedir 835ms
+163 http fetch GET 200 https://registry.npmjs.org/semver-diff/-/semver-diff-3.1.1.tgz 320ms
+164 silly pacote range manifest for semver-diff@^3.1.1 fetched in 1185ms
+165 silly resolveWithNewModule semver-diff@3.1.1 checking installable status
+166 http fetch GET 200 https://registry.npmjs.org/xdg-basedir/-/xdg-basedir-4.0.0.tgz 307ms
+167 silly pacote range manifest for xdg-basedir@^4.0.0 fetched in 1153ms
+168 silly resolveWithNewModule xdg-basedir@4.0.0 checking installable status
+169 http fetch GET 200 https://registry.npmjs.org/pupa 7456ms
+170 http fetch GET 200 https://registry.npmjs.org/pupa/-/pupa-2.0.1.tgz 286ms
+171 silly pacote range manifest for pupa@^2.0.1 fetched in 7753ms
+172 silly resolveWithNewModule pupa@2.0.1 checking installable status
+173 http fetch GET 304 https://registry.npmjs.org/camelcase 426ms (from cache)
+174 http fetch GET 304 https://registry.npmjs.org/string-width 445ms (from cache)
+175 http fetch GET 200 https://registry.npmjs.org/ansi-align 450ms
+176 silly pacote range manifest for camelcase@^5.3.1 fetched in 453ms
+177 silly resolveWithNewModule camelcase@5.3.1 checking installable status
+178 http fetch GET 304 https://registry.npmjs.org/type-fest 458ms (from cache)
+179 silly pacote range manifest for string-width@^4.1.0 fetched in 466ms
+180 silly resolveWithNewModule string-width@4.2.0 checking installable status
+181 silly pacote range manifest for type-fest@^0.8.1 fetched in 468ms
+182 silly resolveWithNewModule type-fest@0.8.1 checking installable status
+183 http fetch GET 200 https://registry.npmjs.org/cli-boxes 638ms
+184 http fetch GET 200 https://registry.npmjs.org/widest-line 638ms
+185 http fetch GET 200 https://registry.npmjs.org/ansi-align/-/ansi-align-3.0.0.tgz 286ms
+186 silly pacote range manifest for ansi-align@^3.0.0 fetched in 748ms
+187 silly resolveWithNewModule ansi-align@3.0.0 checking installable status
+188 http fetch GET 200 https://registry.npmjs.org/term-size 888ms
+189 http fetch GET 200 https://registry.npmjs.org/widest-line/-/widest-line-3.1.0.tgz 296ms
+190 http fetch GET 200 https://registry.npmjs.org/cli-boxes/-/cli-boxes-2.2.0.tgz 306ms
+191 silly pacote range manifest for widest-line@^3.1.0 fetched in 946ms
+192 silly resolveWithNewModule widest-line@3.1.0 checking installable status
+193 silly pacote range manifest for cli-boxes@^2.2.0 fetched in 955ms
+194 silly resolveWithNewModule cli-boxes@2.2.0 checking installable status
+195 http fetch GET 200 https://registry.npmjs.org/term-size/-/term-size-2.2.0.tgz 305ms
+196 silly pacote range manifest for term-size@^2.1.0 fetched in 1205ms
+197 silly resolveWithNewModule term-size@2.2.0 checking installable status
+198 silly pacote range manifest for string-width@^3.0.0 fetched in 102ms
+199 silly resolveWithNewModule string-width@3.1.0 checking installable status
+200 http fetch GET 304 https://registry.npmjs.org/emoji-regex 314ms (from cache)
+201 http fetch GET 304 https://registry.npmjs.org/is-fullwidth-code-point 325ms (from cache)
+202 silly pacote range manifest for is-fullwidth-code-point@^2.0.0 fetched in 430ms
+203 silly resolveWithNewModule is-fullwidth-code-point@2.0.0 checking installable status
+204 silly pacote range manifest for emoji-regex@^7.0.1 fetched in 439ms
+205 silly resolveWithNewModule emoji-regex@7.0.3 checking installable status
+206 http fetch GET 304 https://registry.npmjs.org/strip-ansi 452ms (from cache)
+207 silly pacote range manifest for strip-ansi@^5.1.0 fetched in 467ms
+208 silly resolveWithNewModule strip-ansi@5.2.0 checking installable status
+209 http fetch GET 304 https://registry.npmjs.org/ansi-regex 941ms (from cache)
+210 silly pacote range manifest for ansi-regex@^4.1.0 fetched in 960ms
+211 silly resolveWithNewModule ansi-regex@4.1.0 checking installable status
+212 silly pacote range manifest for supports-color@^7.1.0 fetched in 26ms
+213 silly resolveWithNewModule supports-color@7.1.0 checking installable status
+214 http fetch GET 200 https://registry.npmjs.org/ansi-styles 35ms (from cache)
+215 silly pacote range manifest for ansi-styles@^4.1.0 fetched in 41ms
+216 silly resolveWithNewModule ansi-styles@4.2.1 checking installable status
+217 http fetch GET 200 https://registry.npmjs.org/color-convert 21ms (from cache)
+218 silly pacote range manifest for color-convert@^2.0.1 fetched in 27ms
+219 silly resolveWithNewModule color-convert@2.0.1 checking installable status
+220 http fetch GET 304 https://registry.npmjs.org/@types%2fcolor-name 1047ms (from cache)
+221 silly pacote range manifest for @types/color-name@^1.1.1 fetched in 1157ms
+222 silly resolveWithNewModule @types/color-name@1.1.1 checking installable status
+223 http fetch GET 200 https://registry.npmjs.org/color-name 49ms (from cache)
+224 silly pacote range manifest for color-name@~1.1.4 fetched in 57ms
+225 silly resolveWithNewModule color-name@1.1.4 checking installable status
+226 silly pacote range manifest for has-flag@^4.0.0 fetched in 16ms
+227 silly resolveWithNewModule has-flag@4.0.0 checking installable status
+228 silly pacote range manifest for is-fullwidth-code-point@^3.0.0 fetched in 11ms
+229 silly resolveWithNewModule is-fullwidth-code-point@3.0.0 checking installable status
+230 silly pacote range manifest for strip-ansi@^6.0.0 fetched in 12ms
+231 silly resolveWithNewModule strip-ansi@6.0.0 checking installable status
+232 silly pacote range manifest for emoji-regex@^8.0.0 fetched in 14ms
+233 silly resolveWithNewModule emoji-regex@8.0.0 checking installable status
+234 silly pacote range manifest for ansi-regex@^5.0.0 fetched in 7ms
+235 silly resolveWithNewModule ansi-regex@5.0.0 checking installable status
+236 http fetch GET 200 https://registry.npmjs.org/unique-string 283ms
+237 http fetch GET 304 https://registry.npmjs.org/graceful-fs 325ms (from cache)
+238 silly pacote range manifest for graceful-fs@^4.1.2 fetched in 333ms
+239 silly resolveWithNewModule graceful-fs@4.2.4 checking installable status
+240 http fetch GET 304 https://registry.npmjs.org/make-dir 344ms (from cache)
+241 silly pacote range manifest for make-dir@^3.0.0 fetched in 453ms
+242 silly resolveWithNewModule make-dir@3.1.0 checking installable status
+243 http fetch GET 304 https://registry.npmjs.org/write-file-atomic 469ms (from cache)
+244 http fetch GET 304 https://registry.npmjs.org/dot-prop 470ms (from cache)
+245 silly pacote range manifest for dot-prop@^5.2.0 fetched in 478ms
+246 silly resolveWithNewModule dot-prop@5.2.0 checking installable status
+247 http fetch GET 200 https://registry.npmjs.org/unique-string/-/unique-string-2.0.0.tgz 303ms
+248 silly pacote range manifest for unique-string@^2.0.0 fetched in 599ms
+249 silly resolveWithNewModule unique-string@2.0.0 checking installable status
+250 http fetch GET 200 https://registry.npmjs.org/write-file-atomic/-/write-file-atomic-3.0.3.tgz 332ms
+251 silly pacote range manifest for write-file-atomic@^3.0.0 fetched in 812ms
+252 silly resolveWithNewModule write-file-atomic@3.0.3 checking installable status
+253 http fetch GET 304 https://registry.npmjs.org/is-obj 287ms (from cache)
+254 silly pacote range manifest for is-obj@^2.0.0 fetched in 294ms
+255 silly resolveWithNewModule is-obj@2.0.0 checking installable status
+256 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-6.3.0.tgz 136ms (from cache)
+257 silly pacote range manifest for semver@^6.0.0 fetched in 147ms
+258 silly resolveWithNewModule semver@6.3.0 checking installable status
+259 http fetch GET 200 https://registry.npmjs.org/crypto-random-string 313ms
+260 http fetch GET 200 https://registry.npmjs.org/crypto-random-string/-/crypto-random-string-2.0.0.tgz 342ms
+261 silly pacote range manifest for crypto-random-string@^2.0.0 fetched in 668ms
+262 silly resolveWithNewModule crypto-random-string@2.0.0 checking installable status
+263 http fetch GET 200 https://registry.npmjs.org/typedarray-to-buffer 303ms
+264 http fetch GET 304 https://registry.npmjs.org/is-typedarray 338ms (from cache)
+265 silly pacote range manifest for is-typedarray@^1.0.0 fetched in 361ms
+266 silly resolveWithNewModule is-typedarray@1.0.0 checking installable status
+267 http fetch GET 304 https://registry.npmjs.org/imurmurhash 372ms (from cache)
+268 http fetch GET 304 https://registry.npmjs.org/signal-exit 381ms (from cache)
+269 silly pacote range manifest for imurmurhash@^0.1.4 fetched in 407ms
+270 silly resolveWithNewModule imurmurhash@0.1.4 checking installable status
+271 silly pacote range manifest for signal-exit@^3.0.2 fetched in 416ms
+272 silly resolveWithNewModule signal-exit@3.0.3 checking installable status
+273 http fetch GET 200 https://registry.npmjs.org/typedarray-to-buffer/-/typedarray-to-buffer-3.1.5.tgz 295ms
+274 silly pacote range manifest for typedarray-to-buffer@^3.1.5 fetched in 610ms
+275 silly resolveWithNewModule typedarray-to-buffer@3.1.5 checking installable status
+276 http fetch GET 304 https://registry.npmjs.org/ci-info 371ms (from cache)
+277 silly pacote range manifest for ci-info@^2.0.0 fetched in 378ms
+278 silly resolveWithNewModule ci-info@2.0.0 checking installable status
+279 http fetch GET 304 https://registry.npmjs.org/is-path-inside 850ms (from cache)
+280 http fetch GET 200 https://registry.npmjs.org/global-dirs 858ms
+281 http fetch GET 200 https://registry.npmjs.org/is-path-inside/-/is-path-inside-3.0.2.tgz 302ms
+282 http fetch GET 200 https://registry.npmjs.org/global-dirs/-/global-dirs-2.0.1.tgz 305ms
+283 silly pacote range manifest for is-path-inside@^3.0.1 fetched in 1167ms
+284 silly resolveWithNewModule is-path-inside@3.0.2 checking installable status
+285 silly pacote range manifest for global-dirs@^2.0.1 fetched in 1174ms
+286 silly resolveWithNewModule global-dirs@2.0.1 checking installable status
+287 http fetch GET 304 https://registry.npmjs.org/ini 940ms (from cache)
+288 silly pacote range manifest for ini@^1.3.5 fetched in 949ms
+289 silly resolveWithNewModule ini@1.3.5 checking installable status
+290 http fetch GET 200 https://registry.npmjs.org/package-json 335ms
+291 http fetch GET 200 https://registry.npmjs.org/package-json/-/package-json-6.5.0.tgz 307ms
+292 silly pacote range manifest for package-json@^6.3.0 fetched in 652ms
+293 silly resolveWithNewModule package-json@6.5.0 checking installable status
+294 silly pacote range manifest for semver@^6.2.0 fetched in 4ms
+295 silly resolveWithNewModule semver@6.3.0 checking installable status
+296 http fetch GET 200 https://registry.npmjs.org/registry-url 311ms
+297 http fetch GET 200 https://registry.npmjs.org/registry-auth-token 346ms
+298 http fetch GET 200 https://registry.npmjs.org/registry-url/-/registry-url-5.1.0.tgz 347ms
+299 http fetch GET 200 https://registry.npmjs.org/registry-auth-token/-/registry-auth-token-4.2.0.tgz 315ms
+300 silly pacote range manifest for registry-auth-token@^4.0.0 fetched in 671ms
+301 silly resolveWithNewModule registry-auth-token@4.2.0 checking installable status
+302 silly pacote range manifest for registry-url@^5.0.0 fetched in 670ms
+303 silly resolveWithNewModule registry-url@5.1.0 checking installable status
+304 http fetch GET 200 https://registry.npmjs.org/got 836ms
+305 http fetch GET 200 https://registry.npmjs.org/got/-/got-9.6.0.tgz 466ms
+306 silly pacote range manifest for got@^9.6.0 fetched in 1318ms
+307 silly resolveWithNewModule got@9.6.0 checking installable status
+308 http fetch GET 200 https://registry.npmjs.org/p-cancelable 284ms
+309 http fetch GET 200 https://registry.npmjs.org/lowercase-keys 300ms
+310 http fetch GET 200 https://registry.npmjs.org/decompress-response 310ms
+311 http fetch GET 200 https://registry.npmjs.org/mimic-response 312ms
+312 http fetch GET 200 https://registry.npmjs.org/cacheable-request 314ms
+313 http fetch GET 200 https://registry.npmjs.org/to-readable-stream 314ms
+314 http fetch GET 200 https://registry.npmjs.org/duplexer3 335ms
+315 http fetch GET 200 https://registry.npmjs.org/@szmarczak%2fhttp-timer 509ms
+316 http fetch GET 304 https://registry.npmjs.org/get-stream 546ms (from cache)
+317 silly pacote range manifest for get-stream@^4.1.0 fetched in 556ms
+318 silly resolveWithNewModule get-stream@4.1.0 checking installable status
+319 http fetch GET 200 https://registry.npmjs.org/lowercase-keys/-/lowercase-keys-1.0.1.tgz 285ms
+320 silly pacote range manifest for lowercase-keys@^1.0.1 fetched in 598ms
+321 silly resolveWithNewModule lowercase-keys@1.0.1 checking installable status
+322 http fetch GET 200 https://registry.npmjs.org/decompress-response/-/decompress-response-3.3.0.tgz 295ms
+323 silly pacote range manifest for decompress-response@^3.3.0 fetched in 615ms
+324 silly resolveWithNewModule decompress-response@3.3.0 checking installable status
+325 http fetch GET 200 https://registry.npmjs.org/to-readable-stream/-/to-readable-stream-1.0.0.tgz 304ms
+326 silly pacote range manifest for to-readable-stream@^1.0.0 fetched in 634ms
+327 silly resolveWithNewModule to-readable-stream@1.0.0 checking installable status
+328 http fetch GET 200 https://registry.npmjs.org/duplexer3/-/duplexer3-0.1.4.tgz 304ms
+329 silly pacote range manifest for duplexer3@^0.1.4 fetched in 649ms
+330 silly resolveWithNewModule duplexer3@0.1.4 checking installable status
+331 http fetch GET 200 https://registry.npmjs.org/url-parse-lax 313ms
+332 http fetch GET 200 https://registry.npmjs.org/@sindresorhus%2fis 1050ms
+333 http fetch GET 200 https://registry.npmjs.org/p-cancelable/-/p-cancelable-1.1.0.tgz 816ms
+334 silly pacote range manifest for p-cancelable@^1.0.0 fetched in 1115ms
+335 silly resolveWithNewModule p-cancelable@1.1.0 checking installable status
+336 http fetch GET 200 https://registry.npmjs.org/cacheable-request/-/cacheable-request-6.1.0.tgz 833ms
+337 http fetch GET 200 https://registry.npmjs.org/mimic-response/-/mimic-response-1.0.1.tgz 834ms
+338 silly pacote range manifest for mimic-response@^1.0.1 fetched in 1161ms
+339 silly resolveWithNewModule mimic-response@1.0.1 checking installable status
+340 silly pacote range manifest for cacheable-request@^6.0.0 fetched in 1162ms
+341 silly resolveWithNewModule cacheable-request@6.1.0 checking installable status
+342 http fetch GET 200 https://registry.npmjs.org/@szmarczak/http-timer/-/http-timer-1.1.2.tgz 1037ms
+343 silly pacote range manifest for @szmarczak/http-timer@^1.1.2 fetched in 1557ms
+344 silly resolveWithNewModule @szmarczak/http-timer@1.1.2 checking installable status
+345 http fetch GET 200 https://registry.npmjs.org/url-parse-lax/-/url-parse-lax-3.0.0.tgz 863ms
+346 silly pacote range manifest for url-parse-lax@^3.0.0 fetched in 1187ms
+347 silly resolveWithNewModule url-parse-lax@3.0.0 checking installable status
+348 http fetch GET 200 https://registry.npmjs.org/@sindresorhus/is/-/is-0.14.0.tgz 1590ms
+349 silly pacote range manifest for @sindresorhus/is@^0.14.0 fetched in 2651ms
+350 silly resolveWithNewModule @sindresorhus/is@0.14.0 checking installable status
+351 http fetch GET 200 https://registry.npmjs.org/defer-to-connect 296ms
+352 http fetch GET 200 https://registry.npmjs.org/defer-to-connect/-/defer-to-connect-1.1.3.tgz 331ms
+353 silly pacote range manifest for defer-to-connect@^1.0.1 fetched in 640ms
+354 silly resolveWithNewModule defer-to-connect@1.1.3 checking installable status
+355 http fetch GET 200 https://registry.npmjs.org/http-cache-semantics 322ms
+356 http fetch GET 200 https://registry.npmjs.org/responselike 322ms
+357 http fetch GET 200 https://registry.npmjs.org/clone-response 330ms
+358 http fetch GET 304 https://registry.npmjs.org/normalize-url 335ms (from cache)
+359 http fetch GET 200 https://registry.npmjs.org/http-cache-semantics/-/http-cache-semantics-4.1.0.tgz 323ms
+360 http fetch GET 200 https://registry.npmjs.org/clone-response/-/clone-response-1.0.2.tgz 318ms
+361 http fetch GET 200 https://registry.npmjs.org/normalize-url/-/normalize-url-4.5.0.tgz 314ms
+362 silly pacote range manifest for normalize-url@^4.1.0 fetched in 668ms
+363 silly resolveWithNewModule normalize-url@4.5.0 checking installable status
+364 silly pacote range manifest for http-cache-semantics@^4.0.0 fetched in 670ms
+365 silly resolveWithNewModule http-cache-semantics@4.1.0 checking installable status
+366 silly pacote range manifest for clone-response@^1.0.2 fetched in 670ms
+367 silly resolveWithNewModule clone-response@1.0.2 checking installable status
+368 http fetch GET 200 https://registry.npmjs.org/lowercase-keys/-/lowercase-keys-2.0.0.tgz 831ms
+369 http fetch GET 200 https://registry.npmjs.org/keyv 837ms
+370 silly pacote range manifest for lowercase-keys@^2.0.0 fetched in 853ms
+371 silly resolveWithNewModule lowercase-keys@2.0.0 checking installable status
+372 http fetch GET 200 https://registry.npmjs.org/get-stream/-/get-stream-5.1.0.tgz 860ms
+373 silly pacote range manifest for get-stream@^5.1.0 fetched in 875ms
+374 silly resolveWithNewModule get-stream@5.1.0 checking installable status
+375 http fetch GET 200 https://registry.npmjs.org/keyv/-/keyv-3.1.0.tgz 288ms
+376 silly pacote range manifest for keyv@^3.0.0 fetched in 1144ms
+377 silly resolveWithNewModule keyv@3.1.0 checking installable status
+378 http fetch GET 200 https://registry.npmjs.org/responselike/-/responselike-1.0.2.tgz 851ms
+379 silly pacote range manifest for responselike@^1.0.2 fetched in 1186ms
+380 silly resolveWithNewModule responselike@1.0.2 checking installable status
+381 http fetch GET 304 https://registry.npmjs.org/pump 427ms (from cache)
+382 silly pacote range manifest for pump@^3.0.0 fetched in 437ms
+383 silly resolveWithNewModule pump@3.0.0 checking installable status
+384 http fetch GET 304 https://registry.npmjs.org/end-of-stream 444ms (from cache)
+385 http fetch GET 304 https://registry.npmjs.org/once 446ms (from cache)
+386 silly pacote range manifest for end-of-stream@^1.1.0 fetched in 453ms
+387 silly resolveWithNewModule end-of-stream@1.4.4 checking installable status
+388 silly pacote range manifest for once@^1.3.1 fetched in 453ms
+389 silly resolveWithNewModule once@1.4.0 checking installable status
+390 http fetch GET 304 https://registry.npmjs.org/wrappy 422ms (from cache)
+391 silly pacote range manifest for wrappy@1 fetched in 434ms
+392 silly resolveWithNewModule wrappy@1.0.2 checking installable status
+393 http fetch GET 200 https://registry.npmjs.org/json-buffer 845ms
+394 http fetch GET 200 https://registry.npmjs.org/json-buffer/-/json-buffer-3.0.0.tgz 842ms
+395 silly pacote version manifest for json-buffer@3.0.0 fetched in 1713ms
+396 silly resolveWithNewModule json-buffer@3.0.0 checking installable status
+397 http fetch GET 304 https://registry.npmjs.org/prepend-http 405ms (from cache)
+398 http fetch GET 200 https://registry.npmjs.org/prepend-http/-/prepend-http-2.0.0.tgz 306ms
+399 silly pacote range manifest for prepend-http@^2.0.0 fetched in 723ms
+400 silly resolveWithNewModule prepend-http@2.0.0 checking installable status
+401 http fetch GET 200 https://registry.npmjs.org/rc 292ms
+402 http fetch GET 200 https://registry.npmjs.org/rc/-/rc-1.2.8.tgz 300ms
+403 silly pacote range manifest for rc@^1.2.8 fetched in 606ms
+404 silly resolveWithNewModule rc@1.2.8 checking installable status
+405 http fetch GET 200 https://registry.npmjs.org/deep-extend 311ms
+406 http fetch GET 304 https://registry.npmjs.org/strip-json-comments 321ms (from cache)
+407 http fetch GET 304 https://registry.npmjs.org/minimist 331ms (from cache)
+408 silly pacote range manifest for minimist@^1.2.0 fetched in 337ms
+409 silly resolveWithNewModule minimist@1.2.5 checking installable status
+410 http fetch GET 200 https://registry.npmjs.org/strip-json-comments/-/strip-json-comments-2.0.1.tgz 308ms
+411 silly pacote range manifest for strip-json-comments@~2.0.1 fetched in 642ms
+412 silly resolveWithNewModule strip-json-comments@2.0.1 checking installable status
+413 http fetch GET 200 https://registry.npmjs.org/deep-extend/-/deep-extend-0.6.0.tgz 339ms
+414 silly pacote range manifest for deep-extend@^0.6.0 fetched in 660ms
+415 silly resolveWithNewModule deep-extend@0.6.0 checking installable status
+416 http fetch GET 200 https://registry.npmjs.org/escape-goat 282ms
+417 http fetch GET 200 https://registry.npmjs.org/escape-goat/-/escape-goat-2.1.1.tgz 307ms
+418 silly pacote range manifest for escape-goat@^2.0.0 fetched in 598ms
+419 silly resolveWithNewModule escape-goat@2.1.1 checking installable status
+420 silly pacote range manifest for semver@^6.3.0 fetched in 1ms
+421 silly resolveWithNewModule semver@6.3.0 checking installable status
+422 timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 35495ms
+423 timing stage:loadIdealTree Completed in 35527ms
+424 silly currentTree node-v12.18.2-win-x64
+425 silly idealTree node-v12.18.2-win-x64
+425 silly idealTree `-- nodemon@2.0.4
+425 silly idealTree   +-- @sindresorhus/is@0.14.0
+425 silly idealTree   +-- @szmarczak/http-timer@1.1.2
+425 silly idealTree   +-- @types/color-name@1.1.1
+425 silly idealTree   +-- abbrev@1.1.1
+425 silly idealTree   +-- ansi-align@3.0.0
+425 silly idealTree   | `-- string-width@3.1.0
+425 silly idealTree   +-- ansi-regex@4.1.0
+425 silly idealTree   +-- ansi-styles@4.2.1
+425 silly idealTree   +-- anymatch@3.1.1
+425 silly idealTree   +-- balanced-match@1.0.0
+425 silly idealTree   +-- binary-extensions@2.1.0
+425 silly idealTree   +-- boxen@4.2.0
+425 silly idealTree   +-- brace-expansion@1.1.11
+425 silly idealTree   +-- braces@3.0.2
+425 silly idealTree   +-- cacheable-request@6.1.0
+425 silly idealTree   | +-- get-stream@5.1.0
+425 silly idealTree   | `-- lowercase-keys@2.0.0
+425 silly idealTree   +-- camelcase@5.3.1
+425 silly idealTree   +-- chalk@3.0.0
+425 silly idealTree   | +-- has-flag@4.0.0
+425 silly idealTree   | `-- supports-color@7.1.0
+425 silly idealTree   +-- chokidar@3.4.1
+425 silly idealTree   +-- ci-info@2.0.0
+425 silly idealTree   +-- cli-boxes@2.2.0
+425 silly idealTree   +-- clone-response@1.0.2
+425 silly idealTree   +-- color-convert@2.0.1
+425 silly idealTree   +-- color-name@1.1.4
+425 silly idealTree   +-- concat-map@0.0.1
+425 silly idealTree   +-- configstore@5.0.1
+425 silly idealTree   +-- crypto-random-string@2.0.0
+425 silly idealTree   +-- debug@3.2.6
+425 silly idealTree   +-- decompress-response@3.3.0
+425 silly idealTree   +-- deep-extend@0.6.0
+425 silly idealTree   +-- defer-to-connect@1.1.3
+425 silly idealTree   +-- dot-prop@5.2.0
+425 silly idealTree   +-- duplexer3@0.1.4
+425 silly idealTree   +-- emoji-regex@7.0.3
+425 silly idealTree   +-- end-of-stream@1.4.4
+425 silly idealTree   +-- escape-goat@2.1.1
+425 silly idealTree   +-- fill-range@7.0.1
+425 silly idealTree   +-- fsevents@2.1.3
+425 silly idealTree   +-- get-stream@4.1.0
+425 silly idealTree   +-- glob-parent@5.1.1
+425 silly idealTree   +-- global-dirs@2.0.1
+425 silly idealTree   +-- got@9.6.0
+425 silly idealTree   +-- graceful-fs@4.2.4
+425 silly idealTree   +-- has-flag@3.0.0
+425 silly idealTree   +-- has-yarn@2.1.0
+425 silly idealTree   +-- http-cache-semantics@4.1.0
+425 silly idealTree   +-- ignore-by-default@1.0.1
+425 silly idealTree   +-- import-lazy@2.1.0
+425 silly idealTree   +-- imurmurhash@0.1.4
+425 silly idealTree   +-- ini@1.3.5
+425 silly idealTree   +-- is-binary-path@2.1.0
+425 silly idealTree   +-- is-ci@2.0.0
+425 silly idealTree   +-- is-extglob@2.1.1
+425 silly idealTree   +-- is-fullwidth-code-point@2.0.0
+425 silly idealTree   +-- is-glob@4.0.1
+425 silly idealTree   +-- is-installed-globally@0.3.2
+425 silly idealTree   +-- is-npm@4.0.0
+425 silly idealTree   +-- is-number@7.0.0
+425 silly idealTree   +-- is-obj@2.0.0
+425 silly idealTree   +-- is-path-inside@3.0.2
+425 silly idealTree   +-- is-typedarray@1.0.0
+425 silly idealTree   +-- is-yarn-global@0.3.0
+425 silly idealTree   +-- json-buffer@3.0.0
+425 silly idealTree   +-- keyv@3.1.0
+425 silly idealTree   +-- latest-version@5.1.0
+425 silly idealTree   +-- lowercase-keys@1.0.1
+425 silly idealTree   +-- make-dir@3.1.0
+425 silly idealTree   | `-- semver@6.3.0
+425 silly idealTree   +-- mimic-response@1.0.1
+425 silly idealTree   +-- minimatch@3.0.4
+425 silly idealTree   +-- minimist@1.2.5
+425 silly idealTree   +-- ms@2.1.2
+425 silly idealTree   +-- nopt@1.0.10
+425 silly idealTree   +-- normalize-path@3.0.0
+425 silly idealTree   +-- normalize-url@4.5.0
+425 silly idealTree   +-- once@1.4.0
+425 silly idealTree   +-- p-cancelable@1.1.0
+425 silly idealTree   +-- package-json@6.5.0
+425 silly idealTree   | `-- semver@6.3.0
+425 silly idealTree   +-- picomatch@2.2.2
+425 silly idealTree   +-- prepend-http@2.0.0
+425 silly idealTree   +-- pstree.remy@1.1.8
+425 silly idealTree   +-- pump@3.0.0
+425 silly idealTree   +-- pupa@2.0.1
+425 silly idealTree   +-- rc@1.2.8
+425 silly idealTree   +-- readdirp@3.4.0
+425 silly idealTree   +-- registry-auth-token@4.2.0
+425 silly idealTree   +-- registry-url@5.1.0
+425 silly idealTree   +-- responselike@1.0.2
+425 silly idealTree   +-- semver-diff@3.1.1
+425 silly idealTree   | `-- semver@6.3.0
+425 silly idealTree   +-- semver@5.7.1
+425 silly idealTree   +-- signal-exit@3.0.3
+425 silly idealTree   +-- string-width@4.2.0
+425 silly idealTree   | +-- ansi-regex@5.0.0
+425 silly idealTree   | +-- emoji-regex@8.0.0
+425 silly idealTree   | +-- is-fullwidth-code-point@3.0.0
+425 silly idealTree   | `-- strip-ansi@6.0.0
+425 silly idealTree   +-- strip-ansi@5.2.0
+425 silly idealTree   +-- strip-json-comments@2.0.1
+425 silly idealTree   +-- supports-color@5.5.0
+425 silly idealTree   +-- term-size@2.2.0
+425 silly idealTree   +-- to-readable-stream@1.0.0
+425 silly idealTree   +-- to-regex-range@5.0.1
+425 silly idealTree   +-- touch@3.1.0
+425 silly idealTree   +-- type-fest@0.8.1
+425 silly idealTree   +-- typedarray-to-buffer@3.1.5
+425 silly idealTree   +-- undefsafe@2.0.3
+425 silly idealTree   | +-- debug@2.6.9
+425 silly idealTree   | `-- ms@2.0.0
+425 silly idealTree   +-- unique-string@2.0.0
+425 silly idealTree   +-- update-notifier@4.1.0
+425 silly idealTree   +-- url-parse-lax@3.0.0
+425 silly idealTree   +-- widest-line@3.1.0
+425 silly idealTree   +-- wrappy@1.0.2
+425 silly idealTree   +-- write-file-atomic@3.0.3
+425 silly idealTree   `-- xdg-basedir@4.0.0
+426 silly install generateActionsToTake
+427 timing stage:generateActionsToTake Completed in 24ms
+428 silly diffTrees action count 121
+429 silly diffTrees add @sindresorhus/is@0.14.0
+430 silly diffTrees add @types/color-name@1.1.1
+431 silly diffTrees add abbrev@1.1.1
+432 silly diffTrees add ansi-regex@4.1.0
+433 silly diffTrees add balanced-match@1.0.0
+434 silly diffTrees add binary-extensions@2.1.0
+435 silly diffTrees add lowercase-keys@2.0.0
+436 silly diffTrees add camelcase@5.3.1
+437 silly diffTrees add has-flag@4.0.0
+438 silly diffTrees add supports-color@7.1.0
+439 silly diffTrees add ci-info@2.0.0
+440 silly diffTrees add cli-boxes@2.2.0
+441 silly diffTrees add color-name@1.1.4
+442 silly diffTrees add color-convert@2.0.1
+443 silly diffTrees add ansi-styles@4.2.1
+444 silly diffTrees add chalk@3.0.0
+445 silly diffTrees add concat-map@0.0.1
+446 silly diffTrees add brace-expansion@1.1.11
+447 silly diffTrees add crypto-random-string@2.0.0
+448 silly diffTrees add deep-extend@0.6.0
+449 silly diffTrees add defer-to-connect@1.1.3
+450 silly diffTrees add @szmarczak/http-timer@1.1.2
+451 silly diffTrees add duplexer3@0.1.4
+452 silly diffTrees add emoji-regex@7.0.3
+453 silly diffTrees add escape-goat@2.1.1
+454 silly diffTrees add fsevents@2.1.3
+455 silly diffTrees add graceful-fs@4.2.4
+456 silly diffTrees add has-flag@3.0.0
+457 silly diffTrees add has-yarn@2.1.0
+458 silly diffTrees add http-cache-semantics@4.1.0
+459 silly diffTrees add import-lazy@2.1.0
+460 silly diffTrees add imurmurhash@0.1.4
+461 silly diffTrees add ini@1.3.5
+462 silly diffTrees add global-dirs@2.0.1
+463 silly diffTrees add is-binary-path@2.1.0
+464 silly diffTrees add is-ci@2.0.0
+465 silly diffTrees add is-extglob@2.1.1
+466 silly diffTrees add is-fullwidth-code-point@2.0.0
+467 silly diffTrees add is-glob@4.0.1
+468 silly diffTrees add glob-parent@5.1.1
+469 silly diffTrees add is-npm@4.0.0
+470 silly diffTrees add is-number@7.0.0
+471 silly diffTrees add is-obj@2.0.0
+472 silly diffTrees add dot-prop@5.2.0
+473 silly diffTrees add is-path-inside@3.0.2
+474 silly diffTrees add is-installed-globally@0.3.2
+475 silly diffTrees add is-typedarray@1.0.0
+476 silly diffTrees add is-yarn-global@0.3.0
+477 silly diffTrees add json-buffer@3.0.0
+478 silly diffTrees add keyv@3.1.0
+479 silly diffTrees add lowercase-keys@1.0.1
+480 silly diffTrees add semver@6.3.0
+481 silly diffTrees add make-dir@3.1.0
+482 silly diffTrees add mimic-response@1.0.1
+483 silly diffTrees add clone-response@1.0.2
+484 silly diffTrees add decompress-response@3.3.0
+485 silly diffTrees add minimist@1.2.5
+486 silly diffTrees add ms@2.1.2
+487 silly diffTrees add nopt@1.0.10
+488 silly diffTrees add normalize-path@3.0.0
+489 silly diffTrees add normalize-url@4.5.0
+490 silly diffTrees add p-cancelable@1.1.0
+491 silly diffTrees add semver@6.3.0
+492 silly diffTrees add picomatch@2.2.2
+493 silly diffTrees add anymatch@3.1.1
+494 silly diffTrees add prepend-http@2.0.0
+495 silly diffTrees add pupa@2.0.1
+496 silly diffTrees add readdirp@3.4.0
+497 silly diffTrees add responselike@1.0.2
+498 silly diffTrees add semver@6.3.0
+499 silly diffTrees add semver-diff@3.1.1
+500 silly diffTrees add signal-exit@3.0.3
+501 silly diffTrees add ansi-regex@5.0.0
+502 silly diffTrees add emoji-regex@8.0.0
+503 silly diffTrees add is-fullwidth-code-point@3.0.0
+504 silly diffTrees add strip-ansi@6.0.0
+505 silly diffTrees add string-width@4.2.0
+506 silly diffTrees add strip-ansi@5.2.0
+507 silly diffTrees add string-width@3.1.0
+508 silly diffTrees add ansi-align@3.0.0
+509 silly diffTrees add strip-json-comments@2.0.1
+510 silly diffTrees add rc@1.2.8
+511 silly diffTrees add registry-auth-token@4.2.0
+512 silly diffTrees add registry-url@5.1.0
+513 silly diffTrees add term-size@2.2.0
+514 silly diffTrees add to-readable-stream@1.0.0
+515 silly diffTrees add to-regex-range@5.0.1
+516 silly diffTrees add fill-range@7.0.1
+517 silly diffTrees add braces@3.0.2
+518 silly diffTrees add type-fest@0.8.1
+519 silly diffTrees add typedarray-to-buffer@3.1.5
+520 silly diffTrees add ms@2.0.0
+521 silly diffTrees add debug@2.6.9
+522 silly diffTrees add unique-string@2.0.0
+523 silly diffTrees add url-parse-lax@3.0.0
+524 silly diffTrees add widest-line@3.1.0
+525 silly diffTrees add boxen@4.2.0
+526 silly diffTrees add wrappy@1.0.2
+527 silly diffTrees add once@1.4.0
+528 silly diffTrees add end-of-stream@1.4.4
+529 silly diffTrees add pump@3.0.0
+530 silly diffTrees add get-stream@5.1.0
+531 silly diffTrees add cacheable-request@6.1.0
+532 silly diffTrees add get-stream@4.1.0
+533 silly diffTrees add got@9.6.0
+534 silly diffTrees add package-json@6.5.0
+535 silly diffTrees add latest-version@5.1.0
+536 silly diffTrees add write-file-atomic@3.0.3
+537 silly diffTrees add xdg-basedir@4.0.0
+538 silly diffTrees add configstore@5.0.1
+539 silly diffTrees add chokidar@3.4.1
+540 silly diffTrees add debug@3.2.6
+541 silly diffTrees add ignore-by-default@1.0.1
+542 silly diffTrees add minimatch@3.0.4
+543 silly diffTrees add pstree.remy@1.1.8
+544 silly diffTrees add semver@5.7.1
+545 silly diffTrees add supports-color@5.5.0
+546 silly diffTrees add touch@3.1.0
+547 silly diffTrees add undefsafe@2.0.3
+548 silly diffTrees add update-notifier@4.1.0
+549 silly diffTrees add nodemon@2.0.4
+550 silly decomposeActions action count 968
+551 silly decomposeActions fetch @sindresorhus/is@0.14.0
+552 silly decomposeActions extract @sindresorhus/is@0.14.0
+553 silly decomposeActions preinstall @sindresorhus/is@0.14.0
+554 silly decomposeActions build @sindresorhus/is@0.14.0
+555 silly decomposeActions install @sindresorhus/is@0.14.0
+556 silly decomposeActions postinstall @sindresorhus/is@0.14.0
+557 silly decomposeActions finalize @sindresorhus/is@0.14.0
+558 silly decomposeActions refresh-package-json @sindresorhus/is@0.14.0
+559 silly decomposeActions fetch @types/color-name@1.1.1
+560 silly decomposeActions extract @types/color-name@1.1.1
+561 silly decomposeActions preinstall @types/color-name@1.1.1
+562 silly decomposeActions build @types/color-name@1.1.1
+563 silly decomposeActions install @types/color-name@1.1.1
+564 silly decomposeActions postinstall @types/color-name@1.1.1
+565 silly decomposeActions finalize @types/color-name@1.1.1
+566 silly decomposeActions refresh-package-json @types/color-name@1.1.1
+567 silly decomposeActions fetch abbrev@1.1.1
+568 silly decomposeActions extract abbrev@1.1.1
+569 silly decomposeActions preinstall abbrev@1.1.1
+570 silly decomposeActions build abbrev@1.1.1
+571 silly decomposeActions install abbrev@1.1.1
+572 silly decomposeActions postinstall abbrev@1.1.1
+573 silly decomposeActions finalize abbrev@1.1.1
+574 silly decomposeActions refresh-package-json abbrev@1.1.1
+575 silly decomposeActions fetch ansi-regex@4.1.0
+576 silly decomposeActions extract ansi-regex@4.1.0
+577 silly decomposeActions preinstall ansi-regex@4.1.0
+578 silly decomposeActions build ansi-regex@4.1.0
+579 silly decomposeActions install ansi-regex@4.1.0
+580 silly decomposeActions postinstall ansi-regex@4.1.0
+581 silly decomposeActions finalize ansi-regex@4.1.0
+582 silly decomposeActions refresh-package-json ansi-regex@4.1.0
+583 silly decomposeActions fetch balanced-match@1.0.0
+584 silly decomposeActions extract balanced-match@1.0.0
+585 silly decomposeActions preinstall balanced-match@1.0.0
+586 silly decomposeActions build balanced-match@1.0.0
+587 silly decomposeActions install balanced-match@1.0.0
+588 silly decomposeActions postinstall balanced-match@1.0.0
+589 silly decomposeActions finalize balanced-match@1.0.0
+590 silly decomposeActions refresh-package-json balanced-match@1.0.0
+591 silly decomposeActions fetch binary-extensions@2.1.0
+592 silly decomposeActions extract binary-extensions@2.1.0
+593 silly decomposeActions preinstall binary-extensions@2.1.0
+594 silly decomposeActions build binary-extensions@2.1.0
+595 silly decomposeActions install binary-extensions@2.1.0
+596 silly decomposeActions postinstall binary-extensions@2.1.0
+597 silly decomposeActions finalize binary-extensions@2.1.0
+598 silly decomposeActions refresh-package-json binary-extensions@2.1.0
+599 silly decomposeActions fetch lowercase-keys@2.0.0
+600 silly decomposeActions extract lowercase-keys@2.0.0
+601 silly decomposeActions preinstall lowercase-keys@2.0.0
+602 silly decomposeActions build lowercase-keys@2.0.0
+603 silly decomposeActions install lowercase-keys@2.0.0
+604 silly decomposeActions postinstall lowercase-keys@2.0.0
+605 silly decomposeActions finalize lowercase-keys@2.0.0
+606 silly decomposeActions refresh-package-json lowercase-keys@2.0.0
+607 silly decomposeActions fetch camelcase@5.3.1
+608 silly decomposeActions extract camelcase@5.3.1
+609 silly decomposeActions preinstall camelcase@5.3.1
+610 silly decomposeActions build camelcase@5.3.1
+611 silly decomposeActions install camelcase@5.3.1
+612 silly decomposeActions postinstall camelcase@5.3.1
+613 silly decomposeActions finalize camelcase@5.3.1
+614 silly decomposeActions refresh-package-json camelcase@5.3.1
+615 silly decomposeActions fetch has-flag@4.0.0
+616 silly decomposeActions extract has-flag@4.0.0
+617 silly decomposeActions preinstall has-flag@4.0.0
+618 silly decomposeActions build has-flag@4.0.0
+619 silly decomposeActions install has-flag@4.0.0
+620 silly decomposeActions postinstall has-flag@4.0.0
+621 silly decomposeActions finalize has-flag@4.0.0
+622 silly decomposeActions refresh-package-json has-flag@4.0.0
+623 silly decomposeActions fetch supports-color@7.1.0
+624 silly decomposeActions extract supports-color@7.1.0
+625 silly decomposeActions preinstall supports-color@7.1.0
+626 silly decomposeActions build supports-color@7.1.0
+627 silly decomposeActions install supports-color@7.1.0
+628 silly decomposeActions postinstall supports-color@7.1.0
+629 silly decomposeActions finalize supports-color@7.1.0
+630 silly decomposeActions refresh-package-json supports-color@7.1.0
+631 silly decomposeActions fetch ci-info@2.0.0
+632 silly decomposeActions extract ci-info@2.0.0
+633 silly decomposeActions preinstall ci-info@2.0.0
+634 silly decomposeActions build ci-info@2.0.0
+635 silly decomposeActions install ci-info@2.0.0
+636 silly decomposeActions postinstall ci-info@2.0.0
+637 silly decomposeActions finalize ci-info@2.0.0
+638 silly decomposeActions refresh-package-json ci-info@2.0.0
+639 silly decomposeActions fetch cli-boxes@2.2.0
+640 silly decomposeActions extract cli-boxes@2.2.0
+641 silly decomposeActions preinstall cli-boxes@2.2.0
+642 silly decomposeActions build cli-boxes@2.2.0
+643 silly decomposeActions install cli-boxes@2.2.0
+644 silly decomposeActions postinstall cli-boxes@2.2.0
+645 silly decomposeActions finalize cli-boxes@2.2.0
+646 silly decomposeActions refresh-package-json cli-boxes@2.2.0
+647 silly decomposeActions fetch color-name@1.1.4
+648 silly decomposeActions extract color-name@1.1.4
+649 silly decomposeActions preinstall color-name@1.1.4
+650 silly decomposeActions build color-name@1.1.4
+651 silly decomposeActions install color-name@1.1.4
+652 silly decomposeActions postinstall color-name@1.1.4
+653 silly decomposeActions finalize color-name@1.1.4
+654 silly decomposeActions refresh-package-json color-name@1.1.4
+655 silly decomposeActions fetch color-convert@2.0.1
+656 silly decomposeActions extract color-convert@2.0.1
+657 silly decomposeActions preinstall color-convert@2.0.1
+658 silly decomposeActions build color-convert@2.0.1
+659 silly decomposeActions install color-convert@2.0.1
+660 silly decomposeActions postinstall color-convert@2.0.1
+661 silly decomposeActions finalize color-convert@2.0.1
+662 silly decomposeActions refresh-package-json color-convert@2.0.1
+663 silly decomposeActions fetch ansi-styles@4.2.1
+664 silly decomposeActions extract ansi-styles@4.2.1
+665 silly decomposeActions preinstall ansi-styles@4.2.1
+666 silly decomposeActions build ansi-styles@4.2.1
+667 silly decomposeActions install ansi-styles@4.2.1
+668 silly decomposeActions postinstall ansi-styles@4.2.1
+669 silly decomposeActions finalize ansi-styles@4.2.1
+670 silly decomposeActions refresh-package-json ansi-styles@4.2.1
+671 silly decomposeActions fetch chalk@3.0.0
+672 silly decomposeActions extract chalk@3.0.0
+673 silly decomposeActions preinstall chalk@3.0.0
+674 silly decomposeActions build chalk@3.0.0
+675 silly decomposeActions install chalk@3.0.0
+676 silly decomposeActions postinstall chalk@3.0.0
+677 silly decomposeActions finalize chalk@3.0.0
+678 silly decomposeActions refresh-package-json chalk@3.0.0
+679 silly decomposeActions fetch concat-map@0.0.1
+680 silly decomposeActions extract concat-map@0.0.1
+681 silly decomposeActions preinstall concat-map@0.0.1
+682 silly decomposeActions build concat-map@0.0.1
+683 silly decomposeActions install concat-map@0.0.1
+684 silly decomposeActions postinstall concat-map@0.0.1
+685 silly decomposeActions finalize concat-map@0.0.1
+686 silly decomposeActions refresh-package-json concat-map@0.0.1
+687 silly decomposeActions fetch brace-expansion@1.1.11
+688 silly decomposeActions extract brace-expansion@1.1.11
+689 silly decomposeActions preinstall brace-expansion@1.1.11
+690 silly decomposeActions build brace-expansion@1.1.11
+691 silly decomposeActions install brace-expansion@1.1.11
+692 silly decomposeActions postinstall brace-expansion@1.1.11
+693 silly decomposeActions finalize brace-expansion@1.1.11
+694 silly decomposeActions refresh-package-json brace-expansion@1.1.11
+695 silly decomposeActions fetch crypto-random-string@2.0.0
+696 silly decomposeActions extract crypto-random-string@2.0.0
+697 silly decomposeActions preinstall crypto-random-string@2.0.0
+698 silly decomposeActions build crypto-random-string@2.0.0
+699 silly decomposeActions install crypto-random-string@2.0.0
+700 silly decomposeActions postinstall crypto-random-string@2.0.0
+701 silly decomposeActions finalize crypto-random-string@2.0.0
+702 silly decomposeActions refresh-package-json crypto-random-string@2.0.0
+703 silly decomposeActions fetch deep-extend@0.6.0
+704 silly decomposeActions extract deep-extend@0.6.0
+705 silly decomposeActions preinstall deep-extend@0.6.0
+706 silly decomposeActions build deep-extend@0.6.0
+707 silly decomposeActions install deep-extend@0.6.0
+708 silly decomposeActions postinstall deep-extend@0.6.0
+709 silly decomposeActions finalize deep-extend@0.6.0
+710 silly decomposeActions refresh-package-json deep-extend@0.6.0
+711 silly decomposeActions fetch defer-to-connect@1.1.3
+712 silly decomposeActions extract defer-to-connect@1.1.3
+713 silly decomposeActions preinstall defer-to-connect@1.1.3
+714 silly decomposeActions build defer-to-connect@1.1.3
+715 silly decomposeActions install defer-to-connect@1.1.3
+716 silly decomposeActions postinstall defer-to-connect@1.1.3
+717 silly decomposeActions finalize defer-to-connect@1.1.3
+718 silly decomposeActions refresh-package-json defer-to-connect@1.1.3
+719 silly decomposeActions fetch @szmarczak/http-timer@1.1.2
+720 silly decomposeActions extract @szmarczak/http-timer@1.1.2
+721 silly decomposeActions preinstall @szmarczak/http-timer@1.1.2
+722 silly decomposeActions build @szmarczak/http-timer@1.1.2
+723 silly decomposeActions install @szmarczak/http-timer@1.1.2
+724 silly decomposeActions postinstall @szmarczak/http-timer@1.1.2
+725 silly decomposeActions finalize @szmarczak/http-timer@1.1.2
+726 silly decomposeActions refresh-package-json @szmarczak/http-timer@1.1.2
+727 silly decomposeActions fetch duplexer3@0.1.4
+728 silly decomposeActions extract duplexer3@0.1.4
+729 silly decomposeActions preinstall duplexer3@0.1.4
+730 silly decomposeActions build duplexer3@0.1.4
+731 silly decomposeActions install duplexer3@0.1.4
+732 silly decomposeActions postinstall duplexer3@0.1.4
+733 silly decomposeActions finalize duplexer3@0.1.4
+734 silly decomposeActions refresh-package-json duplexer3@0.1.4
+735 silly decomposeActions fetch emoji-regex@7.0.3
+736 silly decomposeActions extract emoji-regex@7.0.3
+737 silly decomposeActions preinstall emoji-regex@7.0.3
+738 silly decomposeActions build emoji-regex@7.0.3
+739 silly decomposeActions install emoji-regex@7.0.3
+740 silly decomposeActions postinstall emoji-regex@7.0.3
+741 silly decomposeActions finalize emoji-regex@7.0.3
+742 silly decomposeActions refresh-package-json emoji-regex@7.0.3
+743 silly decomposeActions fetch escape-goat@2.1.1
+744 silly decomposeActions extract escape-goat@2.1.1
+745 silly decomposeActions preinstall escape-goat@2.1.1
+746 silly decomposeActions build escape-goat@2.1.1
+747 silly decomposeActions install escape-goat@2.1.1
+748 silly decomposeActions postinstall escape-goat@2.1.1
+749 silly decomposeActions finalize escape-goat@2.1.1
+750 silly decomposeActions refresh-package-json escape-goat@2.1.1
+751 silly decomposeActions fetch fsevents@2.1.3
+752 silly decomposeActions extract fsevents@2.1.3
+753 silly decomposeActions preinstall fsevents@2.1.3
+754 silly decomposeActions build fsevents@2.1.3
+755 silly decomposeActions install fsevents@2.1.3
+756 silly decomposeActions postinstall fsevents@2.1.3
+757 silly decomposeActions finalize fsevents@2.1.3
+758 silly decomposeActions refresh-package-json fsevents@2.1.3
+759 silly decomposeActions fetch graceful-fs@4.2.4
+760 silly decomposeActions extract graceful-fs@4.2.4
+761 silly decomposeActions preinstall graceful-fs@4.2.4
+762 silly decomposeActions build graceful-fs@4.2.4
+763 silly decomposeActions install graceful-fs@4.2.4
+764 silly decomposeActions postinstall graceful-fs@4.2.4
+765 silly decomposeActions finalize graceful-fs@4.2.4
+766 silly decomposeActions refresh-package-json graceful-fs@4.2.4
+767 silly decomposeActions fetch has-flag@3.0.0
+768 silly decomposeActions extract has-flag@3.0.0
+769 silly decomposeActions preinstall has-flag@3.0.0
+770 silly decomposeActions build has-flag@3.0.0
+771 silly decomposeActions install has-flag@3.0.0
+772 silly decomposeActions postinstall has-flag@3.0.0
+773 silly decomposeActions finalize has-flag@3.0.0
+774 silly decomposeActions refresh-package-json has-flag@3.0.0
+775 silly decomposeActions fetch has-yarn@2.1.0
+776 silly decomposeActions extract has-yarn@2.1.0
+777 silly decomposeActions preinstall has-yarn@2.1.0
+778 silly decomposeActions build has-yarn@2.1.0
+779 silly decomposeActions install has-yarn@2.1.0
+780 silly decomposeActions postinstall has-yarn@2.1.0
+781 silly decomposeActions finalize has-yarn@2.1.0
+782 silly decomposeActions refresh-package-json has-yarn@2.1.0
+783 silly decomposeActions fetch http-cache-semantics@4.1.0
+784 silly decomposeActions extract http-cache-semantics@4.1.0
+785 silly decomposeActions preinstall http-cache-semantics@4.1.0
+786 silly decomposeActions build http-cache-semantics@4.1.0
+787 silly decomposeActions install http-cache-semantics@4.1.0
+788 silly decomposeActions postinstall http-cache-semantics@4.1.0
+789 silly decomposeActions finalize http-cache-semantics@4.1.0
+790 silly decomposeActions refresh-package-json http-cache-semantics@4.1.0
+791 silly decomposeActions fetch import-lazy@2.1.0
+792 silly decomposeActions extract import-lazy@2.1.0
+793 silly decomposeActions preinstall import-lazy@2.1.0
+794 silly decomposeActions build import-lazy@2.1.0
+795 silly decomposeActions install import-lazy@2.1.0
+796 silly decomposeActions postinstall import-lazy@2.1.0
+797 silly decomposeActions finalize import-lazy@2.1.0
+798 silly decomposeActions refresh-package-json import-lazy@2.1.0
+799 silly decomposeActions fetch imurmurhash@0.1.4
+800 silly decomposeActions extract imurmurhash@0.1.4
+801 silly decomposeActions preinstall imurmurhash@0.1.4
+802 silly decomposeActions build imurmurhash@0.1.4
+803 silly decomposeActions install imurmurhash@0.1.4
+804 silly decomposeActions postinstall imurmurhash@0.1.4
+805 silly decomposeActions finalize imurmurhash@0.1.4
+806 silly decomposeActions refresh-package-json imurmurhash@0.1.4
+807 silly decomposeActions fetch ini@1.3.5
+808 silly decomposeActions extract ini@1.3.5
+809 silly decomposeActions preinstall ini@1.3.5
+810 silly decomposeActions build ini@1.3.5
+811 silly decomposeActions install ini@1.3.5
+812 silly decomposeActions postinstall ini@1.3.5
+813 silly decomposeActions finalize ini@1.3.5
+814 silly decomposeActions refresh-package-json ini@1.3.5
+815 silly decomposeActions fetch global-dirs@2.0.1
+816 silly decomposeActions extract global-dirs@2.0.1
+817 silly decomposeActions preinstall global-dirs@2.0.1
+818 silly decomposeActions build global-dirs@2.0.1
+819 silly decomposeActions install global-dirs@2.0.1
+820 silly decomposeActions postinstall global-dirs@2.0.1
+821 silly decomposeActions finalize global-dirs@2.0.1
+822 silly decomposeActions refresh-package-json global-dirs@2.0.1
+823 silly decomposeActions fetch is-binary-path@2.1.0
+824 silly decomposeActions extract is-binary-path@2.1.0
+825 silly decomposeActions preinstall is-binary-path@2.1.0
+826 silly decomposeActions build is-binary-path@2.1.0
+827 silly decomposeActions install is-binary-path@2.1.0
+828 silly decomposeActions postinstall is-binary-path@2.1.0
+829 silly decomposeActions finalize is-binary-path@2.1.0
+830 silly decomposeActions refresh-package-json is-binary-path@2.1.0
+831 silly decomposeActions fetch is-ci@2.0.0
+832 silly decomposeActions extract is-ci@2.0.0
+833 silly decomposeActions preinstall is-ci@2.0.0
+834 silly decomposeActions build is-ci@2.0.0
+835 silly decomposeActions install is-ci@2.0.0
+836 silly decomposeActions postinstall is-ci@2.0.0
+837 silly decomposeActions finalize is-ci@2.0.0
+838 silly decomposeActions refresh-package-json is-ci@2.0.0
+839 silly decomposeActions fetch is-extglob@2.1.1
+840 silly decomposeActions extract is-extglob@2.1.1
+841 silly decomposeActions preinstall is-extglob@2.1.1
+842 silly decomposeActions build is-extglob@2.1.1
+843 silly decomposeActions install is-extglob@2.1.1
+844 silly decomposeActions postinstall is-extglob@2.1.1
+845 silly decomposeActions finalize is-extglob@2.1.1
+846 silly decomposeActions refresh-package-json is-extglob@2.1.1
+847 silly decomposeActions fetch is-fullwidth-code-point@2.0.0
+848 silly decomposeActions extract is-fullwidth-code-point@2.0.0
+849 silly decomposeActions preinstall is-fullwidth-code-point@2.0.0
+850 silly decomposeActions build is-fullwidth-code-point@2.0.0
+851 silly decomposeActions install is-fullwidth-code-point@2.0.0
+852 silly decomposeActions postinstall is-fullwidth-code-point@2.0.0
+853 silly decomposeActions finalize is-fullwidth-code-point@2.0.0
+854 silly decomposeActions refresh-package-json is-fullwidth-code-point@2.0.0
+855 silly decomposeActions fetch is-glob@4.0.1
+856 silly decomposeActions extract is-glob@4.0.1
+857 silly decomposeActions preinstall is-glob@4.0.1
+858 silly decomposeActions build is-glob@4.0.1
+859 silly decomposeActions install is-glob@4.0.1
+860 silly decomposeActions postinstall is-glob@4.0.1
+861 silly decomposeActions finalize is-glob@4.0.1
+862 silly decomposeActions refresh-package-json is-glob@4.0.1
+863 silly decomposeActions fetch glob-parent@5.1.1
+864 silly decomposeActions extract glob-parent@5.1.1
+865 silly decomposeActions preinstall glob-parent@5.1.1
+866 silly decomposeActions build glob-parent@5.1.1
+867 silly decomposeActions install glob-parent@5.1.1
+868 silly decomposeActions postinstall glob-parent@5.1.1
+869 silly decomposeActions finalize glob-parent@5.1.1
+870 silly decomposeActions refresh-package-json glob-parent@5.1.1
+871 silly decomposeActions fetch is-npm@4.0.0
+872 silly decomposeActions extract is-npm@4.0.0
+873 silly decomposeActions preinstall is-npm@4.0.0
+874 silly decomposeActions build is-npm@4.0.0
+875 silly decomposeActions install is-npm@4.0.0
+876 silly decomposeActions postinstall is-npm@4.0.0
+877 silly decomposeActions finalize is-npm@4.0.0
+878 silly decomposeActions refresh-package-json is-npm@4.0.0
+879 silly decomposeActions fetch is-number@7.0.0
+880 silly decomposeActions extract is-number@7.0.0
+881 silly decomposeActions preinstall is-number@7.0.0
+882 silly decomposeActions build is-number@7.0.0
+883 silly decomposeActions install is-number@7.0.0
+884 silly decomposeActions postinstall is-number@7.0.0
+885 silly decomposeActions finalize is-number@7.0.0
+886 silly decomposeActions refresh-package-json is-number@7.0.0
+887 silly decomposeActions fetch is-obj@2.0.0
+888 silly decomposeActions extract is-obj@2.0.0
+889 silly decomposeActions preinstall is-obj@2.0.0
+890 silly decomposeActions build is-obj@2.0.0
+891 silly decomposeActions install is-obj@2.0.0
+892 silly decomposeActions postinstall is-obj@2.0.0
+893 silly decomposeActions finalize is-obj@2.0.0
+894 silly decomposeActions refresh-package-json is-obj@2.0.0
+895 silly decomposeActions fetch dot-prop@5.2.0
+896 silly decomposeActions extract dot-prop@5.2.0
+897 silly decomposeActions preinstall dot-prop@5.2.0
+898 silly decomposeActions build dot-prop@5.2.0
+899 silly decomposeActions install dot-prop@5.2.0
+900 silly decomposeActions postinstall dot-prop@5.2.0
+901 silly decomposeActions finalize dot-prop@5.2.0
+902 silly decomposeActions refresh-package-json dot-prop@5.2.0
+903 silly decomposeActions fetch is-path-inside@3.0.2
+904 silly decomposeActions extract is-path-inside@3.0.2
+905 silly decomposeActions preinstall is-path-inside@3.0.2
+906 silly decomposeActions build is-path-inside@3.0.2
+907 silly decomposeActions install is-path-inside@3.0.2
+908 silly decomposeActions postinstall is-path-inside@3.0.2
+909 silly decomposeActions finalize is-path-inside@3.0.2
+910 silly decomposeActions refresh-package-json is-path-inside@3.0.2
+911 silly decomposeActions fetch is-installed-globally@0.3.2
+912 silly decomposeActions extract is-installed-globally@0.3.2
+913 silly decomposeActions preinstall is-installed-globally@0.3.2
+914 silly decomposeActions build is-installed-globally@0.3.2
+915 silly decomposeActions install is-installed-globally@0.3.2
+916 silly decomposeActions postinstall is-installed-globally@0.3.2
+917 silly decomposeActions finalize is-installed-globally@0.3.2
+918 silly decomposeActions refresh-package-json is-installed-globally@0.3.2
+919 silly decomposeActions fetch is-typedarray@1.0.0
+920 silly decomposeActions extract is-typedarray@1.0.0
+921 silly decomposeActions preinstall is-typedarray@1.0.0
+922 silly decomposeActions build is-typedarray@1.0.0
+923 silly decomposeActions install is-typedarray@1.0.0
+924 silly decomposeActions postinstall is-typedarray@1.0.0
+925 silly decomposeActions finalize is-typedarray@1.0.0
+926 silly decomposeActions refresh-package-json is-typedarray@1.0.0
+927 silly decomposeActions fetch is-yarn-global@0.3.0
+928 silly decomposeActions extract is-yarn-global@0.3.0
+929 silly decomposeActions preinstall is-yarn-global@0.3.0
+930 silly decomposeActions build is-yarn-global@0.3.0
+931 silly decomposeActions install is-yarn-global@0.3.0
+932 silly decomposeActions postinstall is-yarn-global@0.3.0
+933 silly decomposeActions finalize is-yarn-global@0.3.0
+934 silly decomposeActions refresh-package-json is-yarn-global@0.3.0
+935 silly decomposeActions fetch json-buffer@3.0.0
+936 silly decomposeActions extract json-buffer@3.0.0
+937 silly decomposeActions preinstall json-buffer@3.0.0
+938 silly decomposeActions build json-buffer@3.0.0
+939 silly decomposeActions install json-buffer@3.0.0
+940 silly decomposeActions postinstall json-buffer@3.0.0
+941 silly decomposeActions finalize json-buffer@3.0.0
+942 silly decomposeActions refresh-package-json json-buffer@3.0.0
+943 silly decomposeActions fetch keyv@3.1.0
+944 silly decomposeActions extract keyv@3.1.0
+945 silly decomposeActions preinstall keyv@3.1.0
+946 silly decomposeActions build keyv@3.1.0
+947 silly decomposeActions install keyv@3.1.0
+948 silly decomposeActions postinstall keyv@3.1.0
+949 silly decomposeActions finalize keyv@3.1.0
+950 silly decomposeActions refresh-package-json keyv@3.1.0
+951 silly decomposeActions fetch lowercase-keys@1.0.1
+952 silly decomposeActions extract lowercase-keys@1.0.1
+953 silly decomposeActions preinstall lowercase-keys@1.0.1
+954 silly decomposeActions build lowercase-keys@1.0.1
+955 silly decomposeActions install lowercase-keys@1.0.1
+956 silly decomposeActions postinstall lowercase-keys@1.0.1
+957 silly decomposeActions finalize lowercase-keys@1.0.1
+958 silly decomposeActions refresh-package-json lowercase-keys@1.0.1
+959 silly decomposeActions fetch semver@6.3.0
+960 silly decomposeActions extract semver@6.3.0
+961 silly decomposeActions preinstall semver@6.3.0
+962 silly decomposeActions build semver@6.3.0
+963 silly decomposeActions install semver@6.3.0
+964 silly decomposeActions postinstall semver@6.3.0
+965 silly decomposeActions finalize semver@6.3.0
+966 silly decomposeActions refresh-package-json semver@6.3.0
+967 silly decomposeActions fetch make-dir@3.1.0
+968 silly decomposeActions extract make-dir@3.1.0
+969 silly decomposeActions preinstall make-dir@3.1.0
+970 silly decomposeActions build make-dir@3.1.0
+971 silly decomposeActions install make-dir@3.1.0
+972 silly decomposeActions postinstall make-dir@3.1.0
+973 silly decomposeActions finalize make-dir@3.1.0
+974 silly decomposeActions refresh-package-json make-dir@3.1.0
+975 silly decomposeActions fetch mimic-response@1.0.1
+976 silly decomposeActions extract mimic-response@1.0.1
+977 silly decomposeActions preinstall mimic-response@1.0.1
+978 silly decomposeActions build mimic-response@1.0.1
+979 silly decomposeActions install mimic-response@1.0.1
+980 silly decomposeActions postinstall mimic-response@1.0.1
+981 silly decomposeActions finalize mimic-response@1.0.1
+982 silly decomposeActions refresh-package-json mimic-response@1.0.1
+983 silly decomposeActions fetch clone-response@1.0.2
+984 silly decomposeActions extract clone-response@1.0.2
+985 silly decomposeActions preinstall clone-response@1.0.2
+986 silly decomposeActions build clone-response@1.0.2
+987 silly decomposeActions install clone-response@1.0.2
+988 silly decomposeActions postinstall clone-response@1.0.2
+989 silly decomposeActions finalize clone-response@1.0.2
+990 silly decomposeActions refresh-package-json clone-response@1.0.2
+991 silly decomposeActions fetch decompress-response@3.3.0
+992 silly decomposeActions extract decompress-response@3.3.0
+993 silly decomposeActions preinstall decompress-response@3.3.0
+994 silly decomposeActions build decompress-response@3.3.0
+995 silly decomposeActions install decompress-response@3.3.0
+996 silly decomposeActions postinstall decompress-response@3.3.0
+997 silly decomposeActions finalize decompress-response@3.3.0
+998 silly decomposeActions refresh-package-json decompress-response@3.3.0
+999 silly decomposeActions fetch minimist@1.2.5
+1000 silly decomposeActions extract minimist@1.2.5
+1001 silly decomposeActions preinstall minimist@1.2.5
+1002 silly decomposeActions build minimist@1.2.5
+1003 silly decomposeActions install minimist@1.2.5
+1004 silly decomposeActions postinstall minimist@1.2.5
+1005 silly decomposeActions finalize minimist@1.2.5
+1006 silly decomposeActions refresh-package-json minimist@1.2.5
+1007 silly decomposeActions fetch ms@2.1.2
+1008 silly decomposeActions extract ms@2.1.2
+1009 silly decomposeActions preinstall ms@2.1.2
+1010 silly decomposeActions build ms@2.1.2
+1011 silly decomposeActions install ms@2.1.2
+1012 silly decomposeActions postinstall ms@2.1.2
+1013 silly decomposeActions finalize ms@2.1.2
+1014 silly decomposeActions refresh-package-json ms@2.1.2
+1015 silly decomposeActions fetch nopt@1.0.10
+1016 silly decomposeActions extract nopt@1.0.10
+1017 silly decomposeActions preinstall nopt@1.0.10
+1018 silly decomposeActions build nopt@1.0.10
+1019 silly decomposeActions install nopt@1.0.10
+1020 silly decomposeActions postinstall nopt@1.0.10
+1021 silly decomposeActions finalize nopt@1.0.10
+1022 silly decomposeActions refresh-package-json nopt@1.0.10
+1023 silly decomposeActions fetch normalize-path@3.0.0
+1024 silly decomposeActions extract normalize-path@3.0.0
+1025 silly decomposeActions preinstall normalize-path@3.0.0
+1026 silly decomposeActions build normalize-path@3.0.0
+1027 silly decomposeActions install normalize-path@3.0.0
+1028 silly decomposeActions postinstall normalize-path@3.0.0
+1029 silly decomposeActions finalize normalize-path@3.0.0
+1030 silly decomposeActions refresh-package-json normalize-path@3.0.0
+1031 silly decomposeActions fetch normalize-url@4.5.0
+1032 silly decomposeActions extract normalize-url@4.5.0
+1033 silly decomposeActions preinstall normalize-url@4.5.0
+1034 silly decomposeActions build normalize-url@4.5.0
+1035 silly decomposeActions install normalize-url@4.5.0
+1036 silly decomposeActions postinstall normalize-url@4.5.0
+1037 silly decomposeActions finalize normalize-url@4.5.0
+1038 silly decomposeActions refresh-package-json normalize-url@4.5.0
+1039 silly decomposeActions fetch p-cancelable@1.1.0
+1040 silly decomposeActions extract p-cancelable@1.1.0
+1041 silly decomposeActions preinstall p-cancelable@1.1.0
+1042 silly decomposeActions build p-cancelable@1.1.0
+1043 silly decomposeActions install p-cancelable@1.1.0
+1044 silly decomposeActions postinstall p-cancelable@1.1.0
+1045 silly decomposeActions finalize p-cancelable@1.1.0
+1046 silly decomposeActions refresh-package-json p-cancelable@1.1.0
+1047 silly decomposeActions fetch semver@6.3.0
+1048 silly decomposeActions extract semver@6.3.0
+1049 silly decomposeActions preinstall semver@6.3.0
+1050 silly decomposeActions build semver@6.3.0
+1051 silly decomposeActions install semver@6.3.0
+1052 silly decomposeActions postinstall semver@6.3.0
+1053 silly decomposeActions finalize semver@6.3.0
+1054 silly decomposeActions refresh-package-json semver@6.3.0
+1055 silly decomposeActions fetch picomatch@2.2.2
+1056 silly decomposeActions extract picomatch@2.2.2
+1057 silly decomposeActions preinstall picomatch@2.2.2
+1058 silly decomposeActions build picomatch@2.2.2
+1059 silly decomposeActions install picomatch@2.2.2
+1060 silly decomposeActions postinstall picomatch@2.2.2
+1061 silly decomposeActions finalize picomatch@2.2.2
+1062 silly decomposeActions refresh-package-json picomatch@2.2.2
+1063 silly decomposeActions fetch anymatch@3.1.1
+1064 silly decomposeActions extract anymatch@3.1.1
+1065 silly decomposeActions preinstall anymatch@3.1.1
+1066 silly decomposeActions build anymatch@3.1.1
+1067 silly decomposeActions install anymatch@3.1.1
+1068 silly decomposeActions postinstall anymatch@3.1.1
+1069 silly decomposeActions finalize anymatch@3.1.1
+1070 silly decomposeActions refresh-package-json anymatch@3.1.1
+1071 silly decomposeActions fetch prepend-http@2.0.0
+1072 silly decomposeActions extract prepend-http@2.0.0
+1073 silly decomposeActions preinstall prepend-http@2.0.0
+1074 silly decomposeActions build prepend-http@2.0.0
+1075 silly decomposeActions install prepend-http@2.0.0
+1076 silly decomposeActions postinstall prepend-http@2.0.0
+1077 silly decomposeActions finalize prepend-http@2.0.0
+1078 silly decomposeActions refresh-package-json prepend-http@2.0.0
+1079 silly decomposeActions fetch pupa@2.0.1
+1080 silly decomposeActions extract pupa@2.0.1
+1081 silly decomposeActions preinstall pupa@2.0.1
+1082 silly decomposeActions build pupa@2.0.1
+1083 silly decomposeActions install pupa@2.0.1
+1084 silly decomposeActions postinstall pupa@2.0.1
+1085 silly decomposeActions finalize pupa@2.0.1
+1086 silly decomposeActions refresh-package-json pupa@2.0.1
+1087 silly decomposeActions fetch readdirp@3.4.0
+1088 silly decomposeActions extract readdirp@3.4.0
+1089 silly decomposeActions preinstall readdirp@3.4.0
+1090 silly decomposeActions build readdirp@3.4.0
+1091 silly decomposeActions install readdirp@3.4.0
+1092 silly decomposeActions postinstall readdirp@3.4.0
+1093 silly decomposeActions finalize readdirp@3.4.0
+1094 silly decomposeActions refresh-package-json readdirp@3.4.0
+1095 silly decomposeActions fetch responselike@1.0.2
+1096 silly decomposeActions extract responselike@1.0.2
+1097 silly decomposeActions preinstall responselike@1.0.2
+1098 silly decomposeActions build responselike@1.0.2
+1099 silly decomposeActions install responselike@1.0.2
+1100 silly decomposeActions postinstall responselike@1.0.2
+1101 silly decomposeActions finalize responselike@1.0.2
+1102 silly decomposeActions refresh-package-json responselike@1.0.2
+1103 silly decomposeActions fetch semver@6.3.0
+1104 silly decomposeActions extract semver@6.3.0
+1105 silly decomposeActions preinstall semver@6.3.0
+1106 silly decomposeActions build semver@6.3.0
+1107 silly decomposeActions install semver@6.3.0
+1108 silly decomposeActions postinstall semver@6.3.0
+1109 silly decomposeActions finalize semver@6.3.0
+1110 silly decomposeActions refresh-package-json semver@6.3.0
+1111 silly decomposeActions fetch semver-diff@3.1.1
+1112 silly decomposeActions extract semver-diff@3.1.1
+1113 silly decomposeActions preinstall semver-diff@3.1.1
+1114 silly decomposeActions build semver-diff@3.1.1
+1115 silly decomposeActions install semver-diff@3.1.1
+1116 silly decomposeActions postinstall semver-diff@3.1.1
+1117 silly decomposeActions finalize semver-diff@3.1.1
+1118 silly decomposeActions refresh-package-json semver-diff@3.1.1
+1119 silly decomposeActions fetch signal-exit@3.0.3
+1120 silly decomposeActions extract signal-exit@3.0.3
+1121 silly decomposeActions preinstall signal-exit@3.0.3
+1122 silly decomposeActions build signal-exit@3.0.3
+1123 silly decomposeActions install signal-exit@3.0.3
+1124 silly decomposeActions postinstall signal-exit@3.0.3
+1125 silly decomposeActions finalize signal-exit@3.0.3
+1126 silly decomposeActions refresh-package-json signal-exit@3.0.3
+1127 silly decomposeActions fetch ansi-regex@5.0.0
+1128 silly decomposeActions extract ansi-regex@5.0.0
+1129 silly decomposeActions preinstall ansi-regex@5.0.0
+1130 silly decomposeActions build ansi-regex@5.0.0
+1131 silly decomposeActions install ansi-regex@5.0.0
+1132 silly decomposeActions postinstall ansi-regex@5.0.0
+1133 silly decomposeActions finalize ansi-regex@5.0.0
+1134 silly decomposeActions refresh-package-json ansi-regex@5.0.0
+1135 silly decomposeActions fetch emoji-regex@8.0.0
+1136 silly decomposeActions extract emoji-regex@8.0.0
+1137 silly decomposeActions preinstall emoji-regex@8.0.0
+1138 silly decomposeActions build emoji-regex@8.0.0
+1139 silly decomposeActions install emoji-regex@8.0.0
+1140 silly decomposeActions postinstall emoji-regex@8.0.0
+1141 silly decomposeActions finalize emoji-regex@8.0.0
+1142 silly decomposeActions refresh-package-json emoji-regex@8.0.0
+1143 silly decomposeActions fetch is-fullwidth-code-point@3.0.0
+1144 silly decomposeActions extract is-fullwidth-code-point@3.0.0
+1145 silly decomposeActions preinstall is-fullwidth-code-point@3.0.0
+1146 silly decomposeActions build is-fullwidth-code-point@3.0.0
+1147 silly decomposeActions install is-fullwidth-code-point@3.0.0
+1148 silly decomposeActions postinstall is-fullwidth-code-point@3.0.0
+1149 silly decomposeActions finalize is-fullwidth-code-point@3.0.0
+1150 silly decomposeActions refresh-package-json is-fullwidth-code-point@3.0.0
+1151 silly decomposeActions fetch strip-ansi@6.0.0
+1152 silly decomposeActions extract strip-ansi@6.0.0
+1153 silly decomposeActions preinstall strip-ansi@6.0.0
+1154 silly decomposeActions build strip-ansi@6.0.0
+1155 silly decomposeActions install strip-ansi@6.0.0
+1156 silly decomposeActions postinstall strip-ansi@6.0.0
+1157 silly decomposeActions finalize strip-ansi@6.0.0
+1158 silly decomposeActions refresh-package-json strip-ansi@6.0.0
+1159 silly decomposeActions fetch string-width@4.2.0
+1160 silly decomposeActions extract string-width@4.2.0
+1161 silly decomposeActions preinstall string-width@4.2.0
+1162 silly decomposeActions build string-width@4.2.0
+1163 silly decomposeActions install string-width@4.2.0
+1164 silly decomposeActions postinstall string-width@4.2.0
+1165 silly decomposeActions finalize string-width@4.2.0
+1166 silly decomposeActions refresh-package-json string-width@4.2.0
+1167 silly decomposeActions fetch strip-ansi@5.2.0
+1168 silly decomposeActions extract strip-ansi@5.2.0
+1169 silly decomposeActions preinstall strip-ansi@5.2.0
+1170 silly decomposeActions build strip-ansi@5.2.0
+1171 silly decomposeActions install strip-ansi@5.2.0
+1172 silly decomposeActions postinstall strip-ansi@5.2.0
+1173 silly decomposeActions finalize strip-ansi@5.2.0
+1174 silly decomposeActions refresh-package-json strip-ansi@5.2.0
+1175 silly decomposeActions fetch string-width@3.1.0
+1176 silly decomposeActions extract string-width@3.1.0
+1177 silly decomposeActions preinstall string-width@3.1.0
+1178 silly decomposeActions build string-width@3.1.0
+1179 silly decomposeActions install string-width@3.1.0
+1180 silly decomposeActions postinstall string-width@3.1.0
+1181 silly decomposeActions finalize string-width@3.1.0
+1182 silly decomposeActions refresh-package-json string-width@3.1.0
+1183 silly decomposeActions fetch ansi-align@3.0.0
+1184 silly decomposeActions extract ansi-align@3.0.0
+1185 silly decomposeActions preinstall ansi-align@3.0.0
+1186 silly decomposeActions build ansi-align@3.0.0
+1187 silly decomposeActions install ansi-align@3.0.0
+1188 silly decomposeActions postinstall ansi-align@3.0.0
+1189 silly decomposeActions finalize ansi-align@3.0.0
+1190 silly decomposeActions refresh-package-json ansi-align@3.0.0
+1191 silly decomposeActions fetch strip-json-comments@2.0.1
+1192 silly decomposeActions extract strip-json-comments@2.0.1
+1193 silly decomposeActions preinstall strip-json-comments@2.0.1
+1194 silly decomposeActions build strip-json-comments@2.0.1
+1195 silly decomposeActions install strip-json-comments@2.0.1
+1196 silly decomposeActions postinstall strip-json-comments@2.0.1
+1197 silly decomposeActions finalize strip-json-comments@2.0.1
+1198 silly decomposeActions refresh-package-json strip-json-comments@2.0.1
+1199 silly decomposeActions fetch rc@1.2.8
+1200 silly decomposeActions extract rc@1.2.8
+1201 silly decomposeActions preinstall rc@1.2.8
+1202 silly decomposeActions build rc@1.2.8
+1203 silly decomposeActions install rc@1.2.8
+1204 silly decomposeActions postinstall rc@1.2.8
+1205 silly decomposeActions finalize rc@1.2.8
+1206 silly decomposeActions refresh-package-json rc@1.2.8
+1207 silly decomposeActions fetch registry-auth-token@4.2.0
+1208 silly decomposeActions extract registry-auth-token@4.2.0
+1209 silly decomposeActions preinstall registry-auth-token@4.2.0
+1210 silly decomposeActions build registry-auth-token@4.2.0
+1211 silly decomposeActions install registry-auth-token@4.2.0
+1212 silly decomposeActions postinstall registry-auth-token@4.2.0
+1213 silly decomposeActions finalize registry-auth-token@4.2.0
+1214 silly decomposeActions refresh-package-json registry-auth-token@4.2.0
+1215 silly decomposeActions fetch registry-url@5.1.0
+1216 silly decomposeActions extract registry-url@5.1.0
+1217 silly decomposeActions preinstall registry-url@5.1.0
+1218 silly decomposeActions build registry-url@5.1.0
+1219 silly decomposeActions install registry-url@5.1.0
+1220 silly decomposeActions postinstall registry-url@5.1.0
+1221 silly decomposeActions finalize registry-url@5.1.0
+1222 silly decomposeActions refresh-package-json registry-url@5.1.0
+1223 silly decomposeActions fetch term-size@2.2.0
+1224 silly decomposeActions extract term-size@2.2.0
+1225 silly decomposeActions preinstall term-size@2.2.0
+1226 silly decomposeActions build term-size@2.2.0
+1227 silly decomposeActions install term-size@2.2.0
+1228 silly decomposeActions postinstall term-size@2.2.0
+1229 silly decomposeActions finalize term-size@2.2.0
+1230 silly decomposeActions refresh-package-json term-size@2.2.0
+1231 silly decomposeActions fetch to-readable-stream@1.0.0
+1232 silly decomposeActions extract to-readable-stream@1.0.0
+1233 silly decomposeActions preinstall to-readable-stream@1.0.0
+1234 silly decomposeActions build to-readable-stream@1.0.0
+1235 silly decomposeActions install to-readable-stream@1.0.0
+1236 silly decomposeActions postinstall to-readable-stream@1.0.0
+1237 silly decomposeActions finalize to-readable-stream@1.0.0
+1238 silly decomposeActions refresh-package-json to-readable-stream@1.0.0
+1239 silly decomposeActions fetch to-regex-range@5.0.1
+1240 silly decomposeActions extract to-regex-range@5.0.1
+1241 silly decomposeActions preinstall to-regex-range@5.0.1
+1242 silly decomposeActions build to-regex-range@5.0.1
+1243 silly decomposeActions install to-regex-range@5.0.1
+1244 silly decomposeActions postinstall to-regex-range@5.0.1
+1245 silly decomposeActions finalize to-regex-range@5.0.1
+1246 silly decomposeActions refresh-package-json to-regex-range@5.0.1
+1247 silly decomposeActions fetch fill-range@7.0.1
+1248 silly decomposeActions extract fill-range@7.0.1
+1249 silly decomposeActions preinstall fill-range@7.0.1
+1250 silly decomposeActions build fill-range@7.0.1
+1251 silly decomposeActions install fill-range@7.0.1
+1252 silly decomposeActions postinstall fill-range@7.0.1
+1253 silly decomposeActions finalize fill-range@7.0.1
+1254 silly decomposeActions refresh-package-json fill-range@7.0.1
+1255 silly decomposeActions fetch braces@3.0.2
+1256 silly decomposeActions extract braces@3.0.2
+1257 silly decomposeActions preinstall braces@3.0.2
+1258 silly decomposeActions build braces@3.0.2
+1259 silly decomposeActions install braces@3.0.2
+1260 silly decomposeActions postinstall braces@3.0.2
+1261 silly decomposeActions finalize braces@3.0.2
+1262 silly decomposeActions refresh-package-json braces@3.0.2
+1263 silly decomposeActions fetch type-fest@0.8.1
+1264 silly decomposeActions extract type-fest@0.8.1
+1265 silly decomposeActions preinstall type-fest@0.8.1
+1266 silly decomposeActions build type-fest@0.8.1
+1267 silly decomposeActions install type-fest@0.8.1
+1268 silly decomposeActions postinstall type-fest@0.8.1
+1269 silly decomposeActions finalize type-fest@0.8.1
+1270 silly decomposeActions refresh-package-json type-fest@0.8.1
+1271 silly decomposeActions fetch typedarray-to-buffer@3.1.5
+1272 silly decomposeActions extract typedarray-to-buffer@3.1.5
+1273 silly decomposeActions preinstall typedarray-to-buffer@3.1.5
+1274 silly decomposeActions build typedarray-to-buffer@3.1.5
+1275 silly decomposeActions install typedarray-to-buffer@3.1.5
+1276 silly decomposeActions postinstall typedarray-to-buffer@3.1.5
+1277 silly decomposeActions finalize typedarray-to-buffer@3.1.5
+1278 silly decomposeActions refresh-package-json typedarray-to-buffer@3.1.5
+1279 silly decomposeActions fetch ms@2.0.0
+1280 silly decomposeActions extract ms@2.0.0
+1281 silly decomposeActions preinstall ms@2.0.0
+1282 silly decomposeActions build ms@2.0.0
+1283 silly decomposeActions install ms@2.0.0
+1284 silly decomposeActions postinstall ms@2.0.0
+1285 silly decomposeActions finalize ms@2.0.0
+1286 silly decomposeActions refresh-package-json ms@2.0.0
+1287 silly decomposeActions fetch debug@2.6.9
+1288 silly decomposeActions extract debug@2.6.9
+1289 silly decomposeActions preinstall debug@2.6.9
+1290 silly decomposeActions build debug@2.6.9
+1291 silly decomposeActions install debug@2.6.9
+1292 silly decomposeActions postinstall debug@2.6.9
+1293 silly decomposeActions finalize debug@2.6.9
+1294 silly decomposeActions refresh-package-json debug@2.6.9
+1295 silly decomposeActions fetch unique-string@2.0.0
+1296 silly decomposeActions extract unique-string@2.0.0
+1297 silly decomposeActions preinstall unique-string@2.0.0
+1298 silly decomposeActions build unique-string@2.0.0
+1299 silly decomposeActions install unique-string@2.0.0
+1300 silly decomposeActions postinstall unique-string@2.0.0
+1301 silly decomposeActions finalize unique-string@2.0.0
+1302 silly decomposeActions refresh-package-json unique-string@2.0.0
+1303 silly decomposeActions fetch url-parse-lax@3.0.0
+1304 silly decomposeActions extract url-parse-lax@3.0.0
+1305 silly decomposeActions preinstall url-parse-lax@3.0.0
+1306 silly decomposeActions build url-parse-lax@3.0.0
+1307 silly decomposeActions install url-parse-lax@3.0.0
+1308 silly decomposeActions postinstall url-parse-lax@3.0.0
+1309 silly decomposeActions finalize url-parse-lax@3.0.0
+1310 silly decomposeActions refresh-package-json url-parse-lax@3.0.0
+1311 silly decomposeActions fetch widest-line@3.1.0
+1312 silly decomposeActions extract widest-line@3.1.0
+1313 silly decomposeActions preinstall widest-line@3.1.0
+1314 silly decomposeActions build widest-line@3.1.0
+1315 silly decomposeActions install widest-line@3.1.0
+1316 silly decomposeActions postinstall widest-line@3.1.0
+1317 silly decomposeActions finalize widest-line@3.1.0
+1318 silly decomposeActions refresh-package-json widest-line@3.1.0
+1319 silly decomposeActions fetch boxen@4.2.0
+1320 silly decomposeActions extract boxen@4.2.0
+1321 silly decomposeActions preinstall boxen@4.2.0
+1322 silly decomposeActions build boxen@4.2.0
+1323 silly decomposeActions install boxen@4.2.0
+1324 silly decomposeActions postinstall boxen@4.2.0
+1325 silly decomposeActions finalize boxen@4.2.0
+1326 silly decomposeActions refresh-package-json boxen@4.2.0
+1327 silly decomposeActions fetch wrappy@1.0.2
+1328 silly decomposeActions extract wrappy@1.0.2
+1329 silly decomposeActions preinstall wrappy@1.0.2
+1330 silly decomposeActions build wrappy@1.0.2
+1331 silly decomposeActions install wrappy@1.0.2
+1332 silly decomposeActions postinstall wrappy@1.0.2
+1333 silly decomposeActions finalize wrappy@1.0.2
+1334 silly decomposeActions refresh-package-json wrappy@1.0.2
+1335 silly decomposeActions fetch once@1.4.0
+1336 silly decomposeActions extract once@1.4.0
+1337 silly decomposeActions preinstall once@1.4.0
+1338 silly decomposeActions build once@1.4.0
+1339 silly decomposeActions install once@1.4.0
+1340 silly decomposeActions postinstall once@1.4.0
+1341 silly decomposeActions finalize once@1.4.0
+1342 silly decomposeActions refresh-package-json once@1.4.0
+1343 silly decomposeActions fetch end-of-stream@1.4.4
+1344 silly decomposeActions extract end-of-stream@1.4.4
+1345 silly decomposeActions preinstall end-of-stream@1.4.4
+1346 silly decomposeActions build end-of-stream@1.4.4
+1347 silly decomposeActions install end-of-stream@1.4.4
+1348 silly decomposeActions postinstall end-of-stream@1.4.4
+1349 silly decomposeActions finalize end-of-stream@1.4.4
+1350 silly decomposeActions refresh-package-json end-of-stream@1.4.4
+1351 silly decomposeActions fetch pump@3.0.0
+1352 silly decomposeActions extract pump@3.0.0
+1353 silly decomposeActions preinstall pump@3.0.0
+1354 silly decomposeActions build pump@3.0.0
+1355 silly decomposeActions install pump@3.0.0
+1356 silly decomposeActions postinstall pump@3.0.0
+1357 silly decomposeActions finalize pump@3.0.0
+1358 silly decomposeActions refresh-package-json pump@3.0.0
+1359 silly decomposeActions fetch get-stream@5.1.0
+1360 silly decomposeActions extract get-stream@5.1.0
+1361 silly decomposeActions preinstall get-stream@5.1.0
+1362 silly decomposeActions build get-stream@5.1.0
+1363 silly decomposeActions install get-stream@5.1.0
+1364 silly decomposeActions postinstall get-stream@5.1.0
+1365 silly decomposeActions finalize get-stream@5.1.0
+1366 silly decomposeActions refresh-package-json get-stream@5.1.0
+1367 silly decomposeActions fetch cacheable-request@6.1.0
+1368 silly decomposeActions extract cacheable-request@6.1.0
+1369 silly decomposeActions preinstall cacheable-request@6.1.0
+1370 silly decomposeActions build cacheable-request@6.1.0
+1371 silly decomposeActions install cacheable-request@6.1.0
+1372 silly decomposeActions postinstall cacheable-request@6.1.0
+1373 silly decomposeActions finalize cacheable-request@6.1.0
+1374 silly decomposeActions refresh-package-json cacheable-request@6.1.0
+1375 silly decomposeActions fetch get-stream@4.1.0
+1376 silly decomposeActions extract get-stream@4.1.0
+1377 silly decomposeActions preinstall get-stream@4.1.0
+1378 silly decomposeActions build get-stream@4.1.0
+1379 silly decomposeActions install get-stream@4.1.0
+1380 silly decomposeActions postinstall get-stream@4.1.0
+1381 silly decomposeActions finalize get-stream@4.1.0
+1382 silly decomposeActions refresh-package-json get-stream@4.1.0
+1383 silly decomposeActions fetch got@9.6.0
+1384 silly decomposeActions extract got@9.6.0
+1385 silly decomposeActions preinstall got@9.6.0
+1386 silly decomposeActions build got@9.6.0
+1387 silly decomposeActions install got@9.6.0
+1388 silly decomposeActions postinstall got@9.6.0
+1389 silly decomposeActions finalize got@9.6.0
+1390 silly decomposeActions refresh-package-json got@9.6.0
+1391 silly decomposeActions fetch package-json@6.5.0
+1392 silly decomposeActions extract package-json@6.5.0
+1393 silly decomposeActions preinstall package-json@6.5.0
+1394 silly decomposeActions build package-json@6.5.0
+1395 silly decomposeActions install package-json@6.5.0
+1396 silly decomposeActions postinstall package-json@6.5.0
+1397 silly decomposeActions finalize package-json@6.5.0
+1398 silly decomposeActions refresh-package-json package-json@6.5.0
+1399 silly decomposeActions fetch latest-version@5.1.0
+1400 silly decomposeActions extract latest-version@5.1.0
+1401 silly decomposeActions preinstall latest-version@5.1.0
+1402 silly decomposeActions build latest-version@5.1.0
+1403 silly decomposeActions install latest-version@5.1.0
+1404 silly decomposeActions postinstall latest-version@5.1.0
+1405 silly decomposeActions finalize latest-version@5.1.0
+1406 silly decomposeActions refresh-package-json latest-version@5.1.0
+1407 silly decomposeActions fetch write-file-atomic@3.0.3
+1408 silly decomposeActions extract write-file-atomic@3.0.3
+1409 silly decomposeActions preinstall write-file-atomic@3.0.3
+1410 silly decomposeActions build write-file-atomic@3.0.3
+1411 silly decomposeActions install write-file-atomic@3.0.3
+1412 silly decomposeActions postinstall write-file-atomic@3.0.3
+1413 silly decomposeActions finalize write-file-atomic@3.0.3
+1414 silly decomposeActions refresh-package-json write-file-atomic@3.0.3
+1415 silly decomposeActions fetch xdg-basedir@4.0.0
+1416 silly decomposeActions extract xdg-basedir@4.0.0
+1417 silly decomposeActions preinstall xdg-basedir@4.0.0
+1418 silly decomposeActions build xdg-basedir@4.0.0
+1419 silly decomposeActions install xdg-basedir@4.0.0
+1420 silly decomposeActions postinstall xdg-basedir@4.0.0
+1421 silly decomposeActions finalize xdg-basedir@4.0.0
+1422 silly decomposeActions refresh-package-json xdg-basedir@4.0.0
+1423 silly decomposeActions fetch configstore@5.0.1
+1424 silly decomposeActions extract configstore@5.0.1
+1425 silly decomposeActions preinstall configstore@5.0.1
+1426 silly decomposeActions build configstore@5.0.1
+1427 silly decomposeActions install configstore@5.0.1
+1428 silly decomposeActions postinstall configstore@5.0.1
+1429 silly decomposeActions finalize configstore@5.0.1
+1430 silly decomposeActions refresh-package-json configstore@5.0.1
+1431 silly decomposeActions fetch chokidar@3.4.1
+1432 silly decomposeActions extract chokidar@3.4.1
+1433 silly decomposeActions preinstall chokidar@3.4.1
+1434 silly decomposeActions build chokidar@3.4.1
+1435 silly decomposeActions install chokidar@3.4.1
+1436 silly decomposeActions postinstall chokidar@3.4.1
+1437 silly decomposeActions finalize chokidar@3.4.1
+1438 silly decomposeActions refresh-package-json chokidar@3.4.1
+1439 silly decomposeActions fetch debug@3.2.6
+1440 silly decomposeActions extract debug@3.2.6
+1441 silly decomposeActions preinstall debug@3.2.6
+1442 silly decomposeActions build debug@3.2.6
+1443 silly decomposeActions install debug@3.2.6
+1444 silly decomposeActions postinstall debug@3.2.6
+1445 silly decomposeActions finalize debug@3.2.6
+1446 silly decomposeActions refresh-package-json debug@3.2.6
+1447 silly decomposeActions fetch ignore-by-default@1.0.1
+1448 silly decomposeActions extract ignore-by-default@1.0.1
+1449 silly decomposeActions preinstall ignore-by-default@1.0.1
+1450 silly decomposeActions build ignore-by-default@1.0.1
+1451 silly decomposeActions install ignore-by-default@1.0.1
+1452 silly decomposeActions postinstall ignore-by-default@1.0.1
+1453 silly decomposeActions finalize ignore-by-default@1.0.1
+1454 silly decomposeActions refresh-package-json ignore-by-default@1.0.1
+1455 silly decomposeActions fetch minimatch@3.0.4
+1456 silly decomposeActions extract minimatch@3.0.4
+1457 silly decomposeActions preinstall minimatch@3.0.4
+1458 silly decomposeActions build minimatch@3.0.4
+1459 silly decomposeActions install minimatch@3.0.4
+1460 silly decomposeActions postinstall minimatch@3.0.4
+1461 silly decomposeActions finalize minimatch@3.0.4
+1462 silly decomposeActions refresh-package-json minimatch@3.0.4
+1463 silly decomposeActions fetch pstree.remy@1.1.8
+1464 silly decomposeActions extract pstree.remy@1.1.8
+1465 silly decomposeActions preinstall pstree.remy@1.1.8
+1466 silly decomposeActions build pstree.remy@1.1.8
+1467 silly decomposeActions install pstree.remy@1.1.8
+1468 silly decomposeActions postinstall pstree.remy@1.1.8
+1469 silly decomposeActions finalize pstree.remy@1.1.8
+1470 silly decomposeActions refresh-package-json pstree.remy@1.1.8
+1471 silly decomposeActions fetch semver@5.7.1
+1472 silly decomposeActions extract semver@5.7.1
+1473 silly decomposeActions preinstall semver@5.7.1
+1474 silly decomposeActions build semver@5.7.1
+1475 silly decomposeActions install semver@5.7.1
+1476 silly decomposeActions postinstall semver@5.7.1
+1477 silly decomposeActions finalize semver@5.7.1
+1478 silly decomposeActions refresh-package-json semver@5.7.1
+1479 silly decomposeActions fetch supports-color@5.5.0
+1480 silly decomposeActions extract supports-color@5.5.0
+1481 silly decomposeActions preinstall supports-color@5.5.0
+1482 silly decomposeActions build supports-color@5.5.0
+1483 silly decomposeActions install supports-color@5.5.0
+1484 silly decomposeActions postinstall supports-color@5.5.0
+1485 silly decomposeActions finalize supports-color@5.5.0
+1486 silly decomposeActions refresh-package-json supports-color@5.5.0
+1487 silly decomposeActions fetch touch@3.1.0
+1488 silly decomposeActions extract touch@3.1.0
+1489 silly decomposeActions preinstall touch@3.1.0
+1490 silly decomposeActions build touch@3.1.0
+1491 silly decomposeActions install touch@3.1.0
+1492 silly decomposeActions postinstall touch@3.1.0
+1493 silly decomposeActions finalize touch@3.1.0
+1494 silly decomposeActions refresh-package-json touch@3.1.0
+1495 silly decomposeActions fetch undefsafe@2.0.3
+1496 silly decomposeActions extract undefsafe@2.0.3
+1497 silly decomposeActions preinstall undefsafe@2.0.3
+1498 silly decomposeActions build undefsafe@2.0.3
+1499 silly decomposeActions install undefsafe@2.0.3
+1500 silly decomposeActions postinstall undefsafe@2.0.3
+1501 silly decomposeActions finalize undefsafe@2.0.3
+1502 silly decomposeActions refresh-package-json undefsafe@2.0.3
+1503 silly decomposeActions fetch update-notifier@4.1.0
+1504 silly decomposeActions extract update-notifier@4.1.0
+1505 silly decomposeActions preinstall update-notifier@4.1.0
+1506 silly decomposeActions build update-notifier@4.1.0
+1507 silly decomposeActions install update-notifier@4.1.0
+1508 silly decomposeActions postinstall update-notifier@4.1.0
+1509 silly decomposeActions finalize update-notifier@4.1.0
+1510 silly decomposeActions refresh-package-json update-notifier@4.1.0
+1511 silly decomposeActions fetch nodemon@2.0.4
+1512 silly decomposeActions extract nodemon@2.0.4
+1513 silly decomposeActions preinstall nodemon@2.0.4
+1514 silly decomposeActions build nodemon@2.0.4
+1515 silly decomposeActions install nodemon@2.0.4
+1516 silly decomposeActions postinstall nodemon@2.0.4
+1517 silly decomposeActions finalize nodemon@2.0.4
+1518 silly decomposeActions refresh-package-json nodemon@2.0.4
+1519 silly install executeActions
+1520 silly doSerial global-install 968
+1521 verbose correctMkdir D:\exercise\exercisetracker\_locks correctMkdir not in flight; initializing
+1522 verbose makeCacheDir UID & GID are irrelevant on win32
+1523 verbose lock using D:\exercise\exercisetracker\_locks\staging-c9c7328919203469.lock for C:\Program Files\node-v12.18.2-win-x64\node_modules\.staging
+1524 silly doParallel extract 121
+1525 silly extract @sindresorhus/is@0.14.0
+1526 silly extract @types/color-name@1.1.1
+1527 silly extract abbrev@1.1.1
+1528 silly extract ansi-regex@4.1.0
+1529 silly extract balanced-match@1.0.0
+1530 silly extract binary-extensions@2.1.0
+1531 silly extract lowercase-keys@2.0.0
+1532 silly extract camelcase@5.3.1
+1533 silly extract has-flag@4.0.0
+1534 silly extract supports-color@7.1.0
+1535 silly extract ci-info@2.0.0
+1536 silly extract cli-boxes@2.2.0
+1537 silly extract color-name@1.1.4
+1538 silly extract color-convert@2.0.1
+1539 silly extract ansi-styles@4.2.1
+1540 silly extract chalk@3.0.0
+1541 silly extract concat-map@0.0.1
+1542 silly extract brace-expansion@1.1.11
+1543 silly extract crypto-random-string@2.0.0
+1544 silly extract deep-extend@0.6.0
+1545 silly extract defer-to-connect@1.1.3
+1546 silly extract @szmarczak/http-timer@1.1.2
+1547 silly extract duplexer3@0.1.4
+1548 silly extract emoji-regex@7.0.3
+1549 silly extract escape-goat@2.1.1
+1550 silly extract graceful-fs@4.2.4
+1551 silly extract has-flag@3.0.0
+1552 silly extract has-yarn@2.1.0
+1553 silly extract http-cache-semantics@4.1.0
+1554 silly extract import-lazy@2.1.0
+1555 silly extract imurmurhash@0.1.4
+1556 silly extract ini@1.3.5
+1557 silly extract global-dirs@2.0.1
+1558 silly extract is-binary-path@2.1.0
+1559 silly extract is-ci@2.0.0
+1560 silly extract is-extglob@2.1.1
+1561 silly extract is-fullwidth-code-point@2.0.0
+1562 silly extract is-glob@4.0.1
+1563 silly extract glob-parent@5.1.1
+1564 silly extract is-npm@4.0.0
+1565 silly extract is-number@7.0.0
+1566 silly extract is-obj@2.0.0
+1567 silly extract dot-prop@5.2.0
+1568 silly extract is-path-inside@3.0.2
+1569 silly extract is-installed-globally@0.3.2
+1570 silly extract is-typedarray@1.0.0
+1571 silly extract is-yarn-global@0.3.0
+1572 silly extract json-buffer@3.0.0
+1573 silly extract keyv@3.1.0
+1574 silly extract lowercase-keys@1.0.1
+1575 silly tarball trying abbrev@1 by hash: sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==
+1576 silly tarball trying ansi-regex@^4.1.0 by hash: sha512-1apePfXM1UOSqw0o9IiFAovVz9M5S1Dg+4TrDwfMewQ6p/rmMueb7tWZjQ1rx4Loy1ArBggoqGpfqqdI4rondg==
+1577 silly tarball trying balanced-match@^1.0.0 by hash: sha1-ibTRmasr7kneFk6gK4nORi1xt2c=
+1578 silly tarball trying binary-extensions@^2.0.0 by hash: sha512-1Yj8h9Q+QDF5FzhMs/c9+6UntbD5MkRfRwac8DoEm9ZfUBZ7tZ55YcGVAzEe4bXsdQHEk+s9S5wsOKVdZrw0tQ==
+1579 silly tarball trying lowercase-keys@^2.0.0 by hash: sha512-tqNXrS78oMOE73NMxK4EMLQsQowWf8jKooH9g7xPavRT706R6bkQJ6DY2Te7QukaZsulxa30wQ7bk0pm4XiHmA==
+1580 silly tarball trying camelcase@^5.3.1 by hash: sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==
+1581 silly tarball trying has-flag@^4.0.0 by hash: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==
+1582 silly tarball trying supports-color@^7.1.0 by hash: sha512-oRSIpR8pxT1Wr2FquTNnGet79b3BWljqOuoW/h4oBhxJ/HUbX5nX6JSruTkvXDCFMwDPvsaTTbvMLKZWSy0R5g==
+1583 silly tarball trying ci-info@^2.0.0 by hash: sha512-5tK7EtrZ0N+OLFMthtqOj4fI2Jeb88C4CAZPu25LDVUgXJ0A3Js4PMGqrn0JU1W0Mh1/Z8wZzYPxqUrXeBboCQ==
+1584 silly tarball trying cli-boxes@^2.2.0 by hash: sha512-gpaBrMAizVEANOpfZp/EEUixTXDyGt7DFzdK5hU+UbWt/J0lB0w20ncZj59Z9a93xHb9u12zF5BS6i9RKbtg4w==
+1585 silly tarball trying color-name@~1.1.4 by hash: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==
+1586 silly tarball trying color-convert@^2.0.1 by hash: sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==
+1587 silly tarball trying ansi-styles@^4.1.0 by hash: sha512-9VGjrMsG1vePxcSweQsN20KY/c4zN0h9fLjqAbwbPfahM3t+NL+M9HC8xeXG2I8pX5NoamTGNuomEUFI7fcUjA==
+1588 silly tarball trying chalk@^3.0.0 by hash: sha512-4D3B6Wf41KOYRFdszmDqMCGq5VV/uMAB273JILmO+3jAlh8X4qDtdtgCR3fxtbLEMzSx22QdhnDcJvu2u1fVwg==
+1589 silly tarball trying concat-map@0.0.1 by hash: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
+1590 silly tarball trying brace-expansion@^1.1.7 by hash: sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA==
+1591 silly tarball trying crypto-random-string@^2.0.0 by hash: sha512-v1plID3y9r/lPhviJ1wrXpLeyUIGAZ2SHNYTEapm7/8A9nLPoyvVp3RK/EPFqn5kEznyWgYZNsRtYYIWbuG8KA==
+1592 silly tarball trying deep-extend@^0.6.0 by hash: sha512-LOHxIOaPYdHlJRtCQfDIVZtfw/ufM8+rVj649RIHzcm/vGwQRXFt6OPqIFWsm2XEMrNIEtWR64sY1LEKD2vAOA==
+1593 silly tarball trying defer-to-connect@^1.0.1 by hash: sha512-0ISdNousHvZT2EiFlZeZAHBUvSxmKswVCEf8hW7KWgG4a8MVEu/3Vb6uWYozkjylyCxe0JBIiRB1jV45S70WVQ==
+1594 silly tarball trying @szmarczak/http-timer@^1.1.2 by hash: sha512-XIB2XbzHTN6ieIjfIMV9hlVcfPU26s2vafYWQcZHWXHOxiaRZYEDKEwdl129Zyg50+foYV2jCgtrqSA6qNuNSA==
+1595 silly tarball trying duplexer3@^0.1.4 by hash: sha1-7gHdHKwO08vH/b6jfcCo8c4ALOI=
+1596 silly tarball trying emoji-regex@^7.0.1 by hash: sha512-CwBLREIQ7LvYFB0WyRvwhq5N5qPhc6PMjD6bYggFlI5YyDgl+0vxq5VHbMOFqLg7hfWzmu8T5Z1QofhmTIhItA==
+1597 silly tarball trying escape-goat@^2.0.0 by hash: sha512-8/uIhbG12Csjy2JEW7D9pHbreaVaS/OpN3ycnyvElTdwM5n6GY6W6e2IPemfvGZeUMqZ9A/3GqIZMgKnBhAw/Q==
+1598 silly tarball trying graceful-fs@^4.1.2 by hash: sha512-WjKPNJF79dtJAVniUlGGWHYGz2jWxT6VhN/4m1NdkbZ2nOsEF+cI1Edgql5zCRhs/VsQYRvrXctxktVXZUkixw==
+1599 silly tarball trying has-flag@^3.0.0 by hash: sha1-tdRU3CGZriJWmfNGfloH87lVuv0=
+1600 silly tarball trying has-yarn@^2.1.0 by hash: sha512-UqBRqi4ju7T+TqGNdqAO0PaSVGsDGJUBQvk9eUWNGRY1CFGDzYhLWoM7JQEemnlvVcv/YEmc2wNW8BC24EnUsw==
+1601 silly tarball trying http-cache-semantics@^4.0.0 by hash: sha512-carPklcUh7ROWRK7Cv27RPtdhYhUsela/ue5/jKzjegVvXDqM2ILE9Q2BGn9JZJh1g87cp56su/FgQSzcWS8cQ==
+1602 silly tarball trying import-lazy@^2.1.0 by hash: sha1-BWmOPUXIjo1+nZLLBYTnfwlvPkM=
+1603 silly tarball trying imurmurhash@^0.1.4 by hash: sha1-khi5srkoojixPcT7a21XbyMUU+o=
+1604 silly tarball trying ini@^1.3.5 by hash: sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw==
+1605 silly tarball trying global-dirs@^2.0.1 by hash: sha512-5HqUqdhkEovj2Of/ms3IeS/EekcO54ytHRLV4PEY2rhRwrHXLQjeVEES0Lhka0xwNDtGYn58wyC4s5+MHsOO6A==
+1606 silly tarball trying is-binary-path@~2.1.0 by hash: sha512-ZMERYes6pDydyuGidse7OsHxtbI7WVeUEozgR/g7rd0xUimYNlvZRE/K2MgZTjWy725IfelLeVcEM97mmtRGXw==
+1607 silly tarball trying is-ci@^2.0.0 by hash: sha512-YfJT7rkpQB0updsdHLGWrvhBJfcfzNNawYDNIyQXJz0IViGf75O8EBPKSdvw2rF+LGCsX4FZ8tcr3b19LcZq4w==
+1608 silly tarball trying is-extglob@^2.1.1 by hash: sha1-qIwCU1eR8C7TfHahueqXc8gz+MI=
+1609 silly tarball trying is-fullwidth-code-point@^2.0.0 by hash: sha1-o7MKXE8ZkYMWeqq5O+764937ZU8=
+1610 silly tarball trying is-glob@~4.0.1 by hash: sha512-5G0tKtBTFImOqDnLB2hG6Bp2qcKEFduo4tZu9MT/H6NQv/ghhy30o55ufafxJ/LdH79LLs2Kfrn85TLKyA7BUg==
+1611 silly tarball trying glob-parent@~5.1.0 by hash: sha512-FnI+VGOpnlGHWZxthPGR+QhR78fuiK0sNLkHQv+bL9fQi57lNNdquIbna/WrfROrolq8GK5Ek6BiMwqL/voRYQ==
+1612 silly tarball trying is-npm@^4.0.0 by hash: sha512-96ECIfh9xtDDlPylNPXhzjsykHsMJZ18ASpaWzQyBr4YRTcVjUvzaHayDAES2oU/3KpljhHUjtSRNiDwi0F0ig==
+1613 silly tarball trying is-number@^7.0.0 by hash: sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==
+1614 silly tarball trying is-obj@^2.0.0 by hash: sha512-drqDG3cbczxxEJRoOXcOjtdp1J/lyp1mNn0xaznRs8+muBhgQcrnbspox5X5fOw0HnMnbfDzvnEMEtqDEJEo8w==
+1615 silly tarball trying dot-prop@^5.2.0 by hash: sha512-uEUyaDKoSQ1M4Oq8l45hSE26SnTxL6snNnqvK/VWx5wJhmff5z0FUVJDKDanor/6w3kzE3i7XZOk+7wC0EXr1A==
+1616 silly tarball trying is-path-inside@^3.0.1 by hash: sha512-/2UGPSgmtqwo1ktx8NDHjuPwZWmHhO+gj0f93EkhLB5RgW9RZevWYYlIkS6zePc6U2WpOdQYIwHe9YC4DWEBVg==
+1617 silly tarball trying is-installed-globally@^0.3.1 by hash: sha512-wZ8x1js7Ia0kecP/CHM/3ABkAmujX7WPvQk6uu3Fly/Mk44pySulQpnHG46OMjHGXApINnV4QhY3SWnECO2z5g==
+1618 silly tarball trying is-typedarray@^1.0.0 by hash: sha1-5HnICFjfDBsR3dppQPlgEfzaSpo=
+1619 silly tarball trying is-yarn-global@^0.3.0 by hash: sha512-VjSeb/lHmkoyd8ryPVIKvOCn4D1koMqY+vqyjjUfc3xyKtP4dYOxM44sZrnqQSzSds3xyOrUTLTC9LVCVgLngw==
+1620 silly tarball trying json-buffer@3.0.0 by hash: sha1-Wx85evx11ne96Lz8Dkfh+aPZqJg=
+1621 silly tarball trying keyv@^3.0.0 by hash: sha512-9ykJ/46SN/9KPM/sichzQ7OvXyGDYKGTaDlKMGCAlg2UK8KRy4jb0d8sFc+0Tt0YYnThq8X2RZgCg74RPxgcVA==
+1622 silly tarball trying lowercase-keys@^1.0.1 by hash: sha512-G2Lj61tXDnVFFOi8VZds+SoQjtQC3dgokKdDG2mTm1tx4m50NUHBOZSBwQQHyy0V12A0JTG4icfZQH+xPyh8VA==
+1623 silly tarball trying @sindresorhus/is@^0.14.0 by hash: sha512-9NET910DNaIPngYnLLPeg+Ogzqsi9uM4mSboU5y6p8S5DzMTVEsJZrawi+BoDNUVBa2DhJqQYUFvMDfgU062LQ==
+1624 silly tarball trying @types/color-name@^1.1.1 by hash: sha512-rr+OQyAjxze7GgWrSaJwydHStIhHq2lvY3BOC2Mj7KnzI7XK0Uw1TOOdI9lDoajEbSWLiYgoo4f1R51erQfhPQ==
+1625 timing action:extract Completed in 242ms
+1626 verbose unlock done using D:\exercise\exercisetracker\_locks\staging-c9c7328919203469.lock for C:\Program Files\node-v12.18.2-win-x64\node_modules\.staging
+1627 timing stage:rollbackFailedOptional Completed in 0ms
+1628 timing stage:runTopLevelLifecycles Completed in 38153ms
+1629 warn optional SKIPPING OPTIONAL DEPENDENCY: fsevents@~2.1.2 (node_modules\nodemon\node_modules\chokidar\node_modules\fsevents):
+1630 warn notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+1631 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Valid OS:    darwin
+1631 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Valid Arch:  any
+1631 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Actual OS:   win32
+1631 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Actual Arch: x64
+1632 verbose stack Error: EPERM: operation not permitted, mkdir 'C:\Program Files\node-v12.18.2-win-x64\node_modules\.staging'
+1633 verbose cwd D:\exercise\exercisetracker
+1634 verbose Windows_NT 10.0.18363
+1635 verbose argv "C:\\Program Files\\node-v12.18.2-win-x64\\node.exe" "C:\\Program Files\\node-v12.18.2-win-x64\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "nodemon"
+1636 verbose node v12.18.2
+1637 verbose npm  v6.14.5
+1638 error code EPERM
+1639 error syscall mkdir
+1640 error path C:\Program Files\node-v12.18.2-win-x64\node_modules\.staging
+1641 error errno -4048
+1642 error Error: EPERM: operation not permitted, mkdir 'C:\Program Files\node-v12.18.2-win-x64\node_modules\.staging'
+1642 error  [OperationalError: EPERM: operation not permitted, mkdir 'C:\Program Files\node-v12.18.2-win-x64\node_modules\.staging'] {
+1642 error   cause: [Error: EPERM: operation not permitted, mkdir 'C:\Program Files\node-v12.18.2-win-x64\node_modules\.staging'] {
+1642 error     errno: -4048,
+1642 error     code: 'EPERM',
+1642 error     syscall: 'mkdir',
+1642 error     path: 'C:\\Program Files\\node-v12.18.2-win-x64\\node_modules\\.staging'
+1642 error   },
+1642 error   errno: -4048,
+1642 error   code: 'EPERM',
+1642 error   syscall: 'mkdir',
+1642 error   path: 'C:\\Program Files\\node-v12.18.2-win-x64\\node_modules\\.staging',
+1642 error   parent: 'nodemon'
+1642 error }
+1643 error The operation was rejected by your operating system.
+1643 error It's possible that the file was already in use (by a text editor or antivirus),
+1643 error or that you lack permissions to access it.
+1643 error
+1643 error If you believe this might be a permissions issue, please double-check the
+1643 error permissions of the file and its containing directories, or try running
+1643 error the command again as root/Administrator.
+1644 verbose exit [ -4048, true ]
